@@ -11,6 +11,7 @@ base_tax = 4
 manpower = 2  
 citysize = 1900
 fort1 = yes
+add_core = JOC
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

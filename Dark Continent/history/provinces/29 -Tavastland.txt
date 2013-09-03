@@ -10,11 +10,6 @@ trade_goods = fur
 manpower = 1
 fort1 = yes # Tavastehus
 capital = "Tavastehus"
-citysize = 1050 # Estimated
+citysize = 0 # Estimated
 discovered_by = western
 discovered_by = eastern
-
-#Black Death
-1399.10.11 = {	owner = XXX
-		controller = XXX
-		citysize = 0 }

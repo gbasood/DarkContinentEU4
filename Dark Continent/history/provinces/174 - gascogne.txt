@@ -12,7 +12,6 @@ trade_goods = wine
 manpower = 5
 fort1 = yes
 marketplace = yes
-#university = yes # L'Université de Bordeaux
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

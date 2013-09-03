@@ -2,11 +2,11 @@
 
 owner = XXX
 controller = XXX
-capital = "Valenciennes"
+capital = "Rethel"
 citysize = 0
 culture = wallonian
 religion = catholic
-hre = yes
+hre = no
 base_tax = 6
 trade_goods = cloth
 manpower = 2

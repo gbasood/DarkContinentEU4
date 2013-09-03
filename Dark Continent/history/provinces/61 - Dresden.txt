@@ -1,10 +1,10 @@
-#61 - Dresden
+#61 - Saxony
 
 owner = XXX
 controller = XXX
 culture = saxon
 religion = catholic
-capital = "Dresden"
+capital = "Meissen"
 trade_goods = iron
 hre = yes
 base_tax = 6

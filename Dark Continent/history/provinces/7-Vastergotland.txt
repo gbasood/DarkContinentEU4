@@ -1,4 +1,4 @@
-#VÃ¤stergÃ¶tland, contains GÃ¶teborg, Skara, SkÃ¶vde etc.
+#Västergötland, contains Göteborg, Skara, Skövde etc.
 
 owner = XXX
 controller = XXX
@@ -8,11 +8,11 @@ hre = no
 base_tax = 3
 trade_goods = grain
 manpower = 3
-fort1 = yes #Old Ã„lvsborg Castle
+fort1 = yes #Old Älvsborg Castle
 capital = "Skara"
 citysize = 0 # Estimated
 temple = yes #"Domkyrkan i Skara"
-workshop = yes #Settlement of Dutch and Germans near Ã„lsvborg
+workshop = yes #Settlement of Dutch and Germans near Älsvborg
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

@@ -1,5 +1,7 @@
 #Lapland, the far north wastelands.
 
+owner = XXX
+controller = XXX
 capital = "Kien Kasjarkka"
 culture = sapmi
 religion = shamanism

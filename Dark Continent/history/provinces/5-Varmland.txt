@@ -1,4 +1,4 @@
-#Värmland+Närke+Dal, contains Karlstad & Örebro
+#V�rmland+Dal
 
 owner = XXX
 controller = XXX
@@ -9,9 +9,8 @@ base_tax = 2
 trade_goods = iron
 manpower = 2
 fort1 = yes
-capital = "Örebro"
-citysize = 0 #estimate
-workshop = yes #"Örebro borgarskap"
+capital = "Karlstad"
+citysize = 0
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

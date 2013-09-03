@@ -12,6 +12,7 @@ fort1 = yes
 capital = "Lund"
 citysize = 0
 marketplace = yes
+temple = yes # Lund cathedral
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

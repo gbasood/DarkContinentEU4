@@ -1,6 +1,8 @@
+#81 - Hessen
+
 owner = XXX
 controller = XXX
-capital = "Frankfurt"
+capital = "Marburg"
 trade_goods = wool
 fort1 = yes
 culture = hessian

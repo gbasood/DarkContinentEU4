@@ -1,7 +1,7 @@
-#288 - Cherkassk (formerly Lugansk)
+#288 - Cherkassk
 
 owner = AST
-controller = AST   
+controller = AST
 culture = tartar
 religion = sunni
 hre = no

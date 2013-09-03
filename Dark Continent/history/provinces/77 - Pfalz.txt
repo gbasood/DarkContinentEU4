@@ -1,6 +1,6 @@
 #77 - Pfalz
 
-capital = "Pfalz"
+capital = "Heidelberg"
 culture = rheinlaender
 religion = catholic
 trade_goods = wine

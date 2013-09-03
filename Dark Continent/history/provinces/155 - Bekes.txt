@@ -1,3 +1,18 @@
+#155 - Békés
+
 owner = XXX
 controller = XXX
+culture = hungarian
+religion = catholic
+capital = "Gyula"
+trade_goods = wine
+hre = no
+base_tax = 3
+manpower = 2
 citysize = 0
+fort1 = yes
+add_core = HUN
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

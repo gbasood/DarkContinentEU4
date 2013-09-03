@@ -2,6 +2,7 @@
 
 owner = XXX
 controller = XXX
+add_core = NOR
 culture = norwegian
 religion = catholic
 hre = no

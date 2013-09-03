@@ -1,5 +1,5 @@
 #110 - Trent
-	
+
 owner = XXX
 controller = XXX
 culture = austrian
@@ -9,7 +9,7 @@ base_tax = 4
 trade_goods = iron 
 manpower = 1
 fort1 = yes
-capital = "Meran"
+capital = "Trent"
 citysize = 0
 marketplace = yes
 discovered_by = western

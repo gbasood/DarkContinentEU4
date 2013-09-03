@@ -1,16 +1,16 @@
-#Fyn-Langeland-Lolland-Falster, incl. Odense, Nyborg and Nykøbing
+#Fyn-Langeland
 
 owner = XXX
 controller = XXX
 culture = danish
 religion = catholic
 hre = no
-base_tax = 4
+base_tax = 3
 trade_goods = fish
-manpower = 3
+manpower = 2
 capital = "Odense"
 fort1 = yes
-citysize = 0 # Estimated
+citysize = 0
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

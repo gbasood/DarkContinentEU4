@@ -13,7 +13,6 @@ manpower = 7
 fort1 = yes
 marketplace = yes
 temple = yes # La Notre Dame de Chartres
-#university = yes # L'Université d'Orléans
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

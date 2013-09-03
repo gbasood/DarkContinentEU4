@@ -1,4 +1,4 @@
-#238 - Essex (can't change file name)
+#238 - Essex
 
 owner = XXX
 controller = XXX
@@ -11,7 +11,6 @@ manpower = 4
 capital = "Chelmsford"
 citysize = 0
 fort1 = yes
-university = yes #Cambridge University
 marketplace = yes
 discovered_by = western
 discovered_by = muslim

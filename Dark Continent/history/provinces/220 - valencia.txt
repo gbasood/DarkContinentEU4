@@ -2,6 +2,7 @@
 
 owner = XXX
 controller = XXX
+add_core = ARA
 culture = catalan
 religion = catholic
 hre = no

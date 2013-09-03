@@ -1,13 +1,13 @@
-#131 - Croatia
+#259 - Sandomierz
 
 owner = XXX
 controller = XXX
-culture = croatian
+capital = "Sandomierz"
+culture = polish
 religion = catholic
-capital = "Zagreb"
 trade_goods = cloth
 hre = no
-base_tax = 3
+base_tax = 6
 manpower = 2
 citysize = 0
 fort1 = yes

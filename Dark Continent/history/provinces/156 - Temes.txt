@@ -1,3 +1,17 @@
+#156 - Temes
+
 owner = XXX
 controller = XXX
+culture = hungarian
+religion = catholic
+capital = "Timisoara"
+trade_goods = wool
+hre = no
+base_tax = 2
+manpower = 2
 citysize = 0
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

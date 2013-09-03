@@ -2,7 +2,7 @@
 
 owner = XXX
 controller = XXX
-culture = polish
+culture = ruthenian
 religion = orthodox
 hre = no
 base_tax = 4

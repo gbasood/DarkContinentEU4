@@ -10,6 +10,7 @@ trade_goods = fish
 manpower = 1
 capital = "Dundee"
 citysize = 0
+add_core = SCO
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

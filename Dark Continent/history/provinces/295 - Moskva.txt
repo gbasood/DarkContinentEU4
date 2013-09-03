@@ -1,12 +1,12 @@
 #295 - Moskva
 
 owner = MOS 
-controller = MOS    
+controller = MOS 
 culture = russian
 religion = orthodox
 hre = no
 base_tax = 10
-trade_goods = grain   
+trade_goods = grain 
 manpower = 8
 capital = "Moskva"
 citysize = 38750

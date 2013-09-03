@@ -1,16 +1,16 @@
-#278 - Polesia
+#Brest-Litovsk
 
 owner = XXX
-controller = XXX    
-culture = byelorussian
+controller = XXX   
+culture = lithuanian
 religion = catholic
 hre = no
 base_tax = 3
-trade_goods = wool   
+trade_goods = wool
 manpower = 4
-capital = "Pinsk"
-citysize = 0
-fort1 = yes
+capital = "Brest-Litovsk"
+citysize = 0 
+fort1 = yes  
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

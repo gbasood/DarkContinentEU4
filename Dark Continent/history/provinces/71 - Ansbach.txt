@@ -1,4 +1,4 @@
-# 71 - Leiningen
+# 71 - Ansbach
 
 owner = XXX
 controller = XXX

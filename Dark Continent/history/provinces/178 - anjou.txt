@@ -12,7 +12,6 @@ trade_goods = cloth
 manpower = 5
 fort1 = yes
 marketplace = yes
-# university = yes # L'Université d'Angers
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

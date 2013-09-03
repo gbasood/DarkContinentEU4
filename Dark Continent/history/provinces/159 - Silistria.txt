@@ -1,16 +1,17 @@
-#260 - Galicien
+#159 - Silistria
 
 owner = XXX
 controller = XXX
-capital= "Lublin"
-culture = polish
-religion = catholic
-trade_goods = grain
+culture = bulgarian
+religion = orthodox
+capital = "Silistra"
+trade_goods = fish
 hre = no
-base_tax = 8
-manpower = 5
+base_tax = 3
+manpower = 3
 citysize = 0
 fort1 = yes
+add_core = TUR
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

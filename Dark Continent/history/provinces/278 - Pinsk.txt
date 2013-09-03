@@ -1,16 +1,16 @@
-#277 - Grodno
+#278 - Pinsk
 
 owner = XXX
-controller = XXX   
-culture = lithuanian
-religion = catholic
+controller = XXX    
+culture = byelorussian
+religion = orthodox
 hre = no
 base_tax = 3
-trade_goods = wool
-manpower = 4
-capital = "Grodno"
-citysize = 0 
-fort1 = yes  
+trade_goods = wool   
+manpower = 2
+capital = "Pinsk"
+citysize = 0
+fort1 = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

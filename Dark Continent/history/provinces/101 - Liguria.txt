@@ -5,7 +5,6 @@ controller = XXX
 culture = lombard
 religion = catholic
 hre = yes
-cot = yes
 base_tax = 10
 trade_goods = naval_supplies
 manpower = 5

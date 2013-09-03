@@ -10,6 +10,7 @@ trade_goods = fish
 manpower = 3
 capital = "Edinburgh"
 citysize = 0
+add_core = SCO
 fort1 = yes
 temple = yes #St Giles Cathedral, Edinburgh
 discovered_by = western
