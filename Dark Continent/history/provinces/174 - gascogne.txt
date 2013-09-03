@@ -1,0 +1,19 @@
+# 174 Gascogne - Principal cities: Bordeaux
+
+owner = XXX
+controller = XXX
+capital = "Bordeaux"
+citysize = 0
+culture = gascon
+religion = catholic
+hre = no
+base_tax = 6
+trade_goods = wine
+manpower = 5
+fort1 = yes
+marketplace = yes
+#university = yes # L'Université de Bordeaux
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

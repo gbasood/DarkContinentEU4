@@ -1,0 +1,3 @@
+owner = XXX
+controller = XXX
+citysize = 0

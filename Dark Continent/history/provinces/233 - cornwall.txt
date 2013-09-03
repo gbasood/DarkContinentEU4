@@ -1,0 +1,17 @@
+#233 - Cornwall
+
+owner = XXX
+controller = XXX
+culture = welsh
+religion = catholic
+hre = no
+base_tax = 7
+trade_goods = copper
+manpower = 3
+capital = "Exeter"
+citysize = 0
+fort1 = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

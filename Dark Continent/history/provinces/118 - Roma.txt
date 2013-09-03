@@ -1,0 +1,17 @@
+owner = RUM
+controller = RUM
+add_core = RUM
+culture = rumi
+religion = sunni
+citysize = 1000
+base_tax = 12
+trade_goods = grain
+manpower = 8
+capital = "Roma"
+fort1 = yes
+temple = yes
+marketplace = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

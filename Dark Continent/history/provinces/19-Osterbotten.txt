@@ -1,0 +1,14 @@
+#Österbotten, down to Vasa.
+
+owner = XXX
+controller = XXX
+culture = finnish
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fur
+manpower = 1
+capital = "Korsholm"
+citysize = 0
+discovered_by = eastern
+discovered_by = western

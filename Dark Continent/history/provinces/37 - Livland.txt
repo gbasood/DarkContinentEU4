@@ -1,0 +1,17 @@
+#Livland, incl. Dorpat, Fellin, Karkus,Wolmar, Lemsal and Wenden.
+
+owner = XXX
+controller = XXX
+culture = latvian
+religion = catholic
+hre = no
+base_tax = 3
+trade_goods = grain
+manpower = 3
+capital = "Dorpat"
+citysize = 0
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = SKA
+discovered_by = JOC

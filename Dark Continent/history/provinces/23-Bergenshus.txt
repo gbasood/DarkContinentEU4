@@ -1,0 +1,15 @@
+#Bergenshus, incl. Bergen, 
+
+owner = XXX
+controller = XXX
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 3
+trade_goods = naval_supplies
+manpower = 2
+capital = "Bergen"
+fort1 = yes
+citysize = 0 # Estimated
+discovered_by = western
+discovered_by = eastern

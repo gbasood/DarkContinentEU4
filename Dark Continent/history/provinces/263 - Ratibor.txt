@@ -1,0 +1,17 @@
+#263 - Ratibor
+
+owner = XXX
+controller = XXX
+culture = schlesian
+religion = catholic
+hre = yes
+base_tax = 3
+capital = "Ratibor"
+citysize = 15000
+trade_goods = wine
+manpower = 2
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

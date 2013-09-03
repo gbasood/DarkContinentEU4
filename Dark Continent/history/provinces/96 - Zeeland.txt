@@ -1,0 +1,17 @@
+# 96 Zeeland - Principal cities: Middelburg, Vlissingen & Zierikzee
+
+owner = XXX
+controller = XXX 
+capital = "Middelburg"
+citysize = 0
+culture = dutch
+religion = catholic
+hre = yes
+base_tax = 10
+trade_goods = salt
+manpower = 3
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

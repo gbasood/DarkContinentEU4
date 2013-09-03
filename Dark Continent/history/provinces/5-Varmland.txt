@@ -1,0 +1,18 @@
+#Värmland+Närke+Dal, contains Karlstad & Örebro
+
+owner = XXX
+controller = XXX
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 2
+trade_goods = iron
+manpower = 2
+fort1 = yes
+capital = "Örebro"
+citysize = 0 #estimate
+workshop = yes #"Örebro borgarskap"
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

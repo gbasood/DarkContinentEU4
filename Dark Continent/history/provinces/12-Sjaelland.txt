@@ -1,0 +1,18 @@
+#Sjaelland, incl. København, Roskilde, Helsingør, Ringsted
+
+owner = XXX
+controller = XXX
+culture = danish
+religion = catholic
+hre = no
+base_tax = 7
+trade_goods = fish
+manpower = 6
+fort1 = yes
+capital = "København"
+marketplace = yes
+citysize = 0 # Estimated
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

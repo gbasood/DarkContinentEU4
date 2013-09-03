@@ -1,0 +1,17 @@
+#147 - Salonica
+
+owner = XXX
+controller = XXX
+culture = greek
+religion = orthodox
+capital = "Larissa"
+trade_goods = grain
+hre = no
+base_tax = 10
+manpower = 4
+citysize = 0
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

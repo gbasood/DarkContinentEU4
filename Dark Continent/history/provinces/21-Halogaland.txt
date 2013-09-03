@@ -1,0 +1,14 @@
+#Hålogaland, incl. Steig, Vågan, Trondenes, Andenes, Alstahaug
+
+owner = XXX
+controller = XXX
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fish
+manpower = 1
+capital = "Steig"
+citysize = 1000 # Estimated
+discovered_by = western
+discovered_by = eastern

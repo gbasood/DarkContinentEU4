@@ -1,0 +1,18 @@
+#54 - Stade
+
+owner = XXX
+controller = XXX
+culture = hannoverian
+religion = catholic
+capital = "Bremervörde"
+trade_goods = fish
+hre = yes
+base_tax = 8
+manpower = 4
+citysize = 0
+fort1 = yes
+temple = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

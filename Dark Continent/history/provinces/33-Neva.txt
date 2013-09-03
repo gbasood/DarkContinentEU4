@@ -1,0 +1,15 @@
+#Näset + the land around the river Neva, incl. Nöteborg, Nyen and St.Petersburg.
+
+owner = XXX
+controller = XXX
+culture = finnish
+religion = orthodox
+hre = no
+base_tax = 2
+trade_goods = fur
+manpower = 1
+capital = "Nöteborg"
+citysize = 0 # Estimated
+fort1 = yes
+discovered_by = western
+discovered_by = eastern

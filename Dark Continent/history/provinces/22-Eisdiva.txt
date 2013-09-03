@@ -1,0 +1,22 @@
+#Oplandene, incl. Hamar, Lillehammer
+
+owner = XXX
+controller = XXX
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = naval_supplies
+manpower = 1
+capital = "Hamar"
+fort1 = yes
+citysize = 0 # Estimated
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }

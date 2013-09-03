@@ -1,0 +1,23 @@
+# 183 Île-de-France - Principal cities: Paris
+
+owner = XXX
+controller = XXX
+capital = "Paris"
+citysize = 0
+culture = cosmopolitan_french
+religion = catholic
+hre = no
+cot = yes
+base_tax = 12
+trade_goods = grain # gameplay, see EU II
+manpower = 8
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+courthouse = yes # Exception: Le Parlement de Paris
+fort1 = yes
+fort2 = yes
+marketplace = yes
+temple = yes # La Notre Dame de Paris
+university = yes # La Sorbonne

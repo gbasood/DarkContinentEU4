@@ -1,0 +1,17 @@
+# 97 Holland - Principal cities: Amsterdam, Haarlem & Den Haag
+
+owner = XXX
+controller = XXX
+capital = "Amsterdam"
+citysize = 0
+culture = dutch
+religion = catholic
+hre = yes
+base_tax = 13
+trade_goods = fish
+manpower = 5
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

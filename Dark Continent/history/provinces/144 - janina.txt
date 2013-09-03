@@ -1,0 +1,17 @@
+#144 - Janina
+
+owner = XXX
+controller = XXX
+culture = greek
+religion = orthodox
+capital = "Ioannina"
+trade_goods = wool
+hre = no
+base_tax = 2
+manpower = 2
+citysize = 0
+fort1 = yes
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western

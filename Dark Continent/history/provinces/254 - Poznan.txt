@@ -1,0 +1,19 @@
+#254 - Poznan
+
+owner = XXX
+controller = XXX
+capital = "Poznan"
+culture = polish
+religion = catholic
+trade_goods = salt
+hre = yes
+base_tax = 6
+manpower = 5
+citysize = 0
+fort1 = yes
+marketplace = yes	# An important center of trade
+temple = yes		# Cathedral Basilica of St. Peter and St. Paul
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,23 @@
+#231 - Porto
+
+owner = XXX
+controller = XXX
+culture = portugese
+religion = catholic
+capital = "Porto"
+trade_goods = wine
+hre = no
+base_tax = 10
+manpower = 5
+citysize = 0
+fort1 = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+marketplace = yes
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }

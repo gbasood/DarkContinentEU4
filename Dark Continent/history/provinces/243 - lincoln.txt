@@ -1,0 +1,18 @@
+#243 - Lincoln
+
+owner = XXX
+controller = XXX
+culture = english
+religion = catholic
+hre = no
+base_tax = 6
+trade_goods = grain
+manpower = 2
+capital = "Nottingham"
+citysize = 0 # Includes Leicester
+fort1 = yes
+temple = yes # Lincoln Cathedral
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

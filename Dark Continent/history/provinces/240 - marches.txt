@@ -1,0 +1,18 @@
+#240 - Marches
+
+owner = MAK
+controller = MAK
+culture = malal
+religion = sunni
+hre = no
+base_tax = 7
+trade_goods = iron
+manpower = 3
+capital = "Coventry"
+citysize = 1000
+add_core = MAK
+fort1 = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

@@ -1,0 +1,22 @@
+#225 - Córdoba
+
+owner = XXX		#Juan II of Castille
+controller = XXX
+culture = andalucian
+religion = catholic
+hre = no
+base_tax = 5
+trade_goods = wool
+manpower = 2
+fort1 = yes
+capital = "Córdoba" 
+citysize = 0
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }

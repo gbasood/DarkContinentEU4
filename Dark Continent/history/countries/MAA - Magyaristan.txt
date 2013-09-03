@@ -1,0 +1,15 @@
+government = despotic_monarchy
+technology_group = muslim
+primary_culture = magyari
+religion = sunni
+capital = 135	#Sopron
+
+1444.11.11 = {
+	monarch = {
+		name = "'Isa Beg I"
+		dynasty = "Magyari"
+		adm = 5
+		dip = 6
+		mil = 7
+	}
+}

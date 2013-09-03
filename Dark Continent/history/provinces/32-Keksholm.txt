@@ -1,0 +1,14 @@
+#Keksholms län+Karelen, incl. Sordavala and Keksholm.
+
+owner = XXX
+controller = XXX
+culture = finnish
+religion = orthodox
+hre = no
+base_tax = 1
+trade_goods = fur
+manpower = 1
+capital = "Keksholm"
+citysize = 0 # Estimated
+discovered_by = western
+discovered_by = eastern

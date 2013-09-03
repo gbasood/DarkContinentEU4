@@ -1,0 +1,15 @@
+government = feudal_monarchy
+technology_group = muslim
+primary_culture = skandistani
+religion = sunni
+capital = 2	#Ostergotland
+
+1444.11.11 = {
+	monarch = {
+		name = "Yunus I"
+		dynasty = "Koke Temur"
+		adm = 4
+		dip = 8
+		mil = 3
+	}
+}

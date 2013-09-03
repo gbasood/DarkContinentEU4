@@ -1,0 +1,19 @@
+#Gotland- Visby etc
+
+owner = XXX
+controller = XXX
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 3
+trade_goods = wool
+manpower = 1
+fort1 = yes # Visborg Castle
+capital = "Visby"
+citysize = 0 # Estimated
+marketplace = yes
+temple = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

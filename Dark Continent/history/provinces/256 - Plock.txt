@@ -1,0 +1,17 @@
+#256 - Plock
+
+owner = XXX
+controller = XXX
+capital = "Plock"
+citysize = 0
+culture = polish
+religion = catholic
+trade_goods = cloth
+hre = no
+base_tax = 3
+manpower = 2
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,18 @@
+# 191 Nevers - Principal cities: Nevers
+
+owner = FAR
+controller = FAR 
+capital = "Nevers"
+citysize = 1000
+culture = faransi
+religion = sunni
+hre = no
+base_tax = 6
+trade_goods = grain
+manpower = 4
+add_core = FAR
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

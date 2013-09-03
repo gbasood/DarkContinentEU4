@@ -1,0 +1,15 @@
+#Nyland, incl. Raseborg, Borgå, Helsingfors.
+
+owner = XXX
+controller = XXX
+culture = finnish
+religion = catholic
+hre = no
+base_tax = 2
+trade_goods = naval_supplies
+manpower = 2
+fort1 = yes # Raseborg
+capital = "Borgå"
+citysize = 0
+discovered_by = western
+discovered_by = eastern

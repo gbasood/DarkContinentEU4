@@ -1,0 +1,12 @@
+﻿owner = XXX
+controller = XXX
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fur
+manpower = 1
+capital = "Umeå"
+citysize = 0
+discovered_by = eastern
+discovered_by = western

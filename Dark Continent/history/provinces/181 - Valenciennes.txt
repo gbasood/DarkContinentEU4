@@ -1,0 +1,17 @@
+# 181 Valenciennes - Principal cities: Valenciennes, Douai & Cambrai
+
+owner = XXX
+controller = XXX
+capital = "Valenciennes"
+citysize = 0
+culture = wallonian
+religion = catholic
+hre = yes
+base_tax = 6
+trade_goods = cloth
+manpower = 2
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

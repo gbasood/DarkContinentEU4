@@ -1,0 +1,17 @@
+#Kurland, incl. Mitau, Libau, Windau, Bauske and Kokenhusen.
+
+owner = XXX
+controller = XXX
+culture = old_prussian
+religion = catholic
+hre = yes
+base_tax = 4
+trade_goods = naval_supplies
+manpower = 1
+capital = "Mitau"
+citysize = 0 # Estimated
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

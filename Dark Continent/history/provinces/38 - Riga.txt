@@ -1,0 +1,17 @@
+#Riga Bight, incl. the city of Riga, and Dünamünde.
+
+owner = XXX
+controller = XXX
+culture = prussian
+religion = catholic
+hre = yes
+base_tax = 6
+trade_goods = naval_supplies
+manpower = 1
+capital = "Riga"
+citysize = 0 # Estimated
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

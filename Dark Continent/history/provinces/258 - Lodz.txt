@@ -1,0 +1,17 @@
+#258 - Lodz
+
+owner = XXX
+controller = XXX
+capital = "Sieradz"
+culture = polish
+religion = catholic
+trade_goods = cloth
+hre = no
+base_tax = 6
+manpower = 4
+fort1 = yes
+citysize = 0
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,17 @@
+# 182 Vermandois - Principal cities: Compiègne
+
+owner = XXX
+controller = XXX
+capital = "Compiègne"
+citysize = 0
+culture = cosmopolitan_french
+religion = catholic
+hre = no
+base_tax = 5
+trade_goods = grain
+manpower = 4
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
