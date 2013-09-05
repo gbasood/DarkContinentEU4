@@ -1,0 +1,15 @@
+#816 - Tumbes
+
+owner = CHM
+controller = CHM
+culture = inca
+religion = animism
+capital = "Tumbes"
+trade_goods = grain
+hre = no
+base_tax = 1
+manpower = 2
+citysize = 1500
+add_core = CHM
+discovered_by = INC
+discovered_by = CHM

@@ -1,0 +1,17 @@
+#810 - Huancavelica
+
+owner = WAN
+controller = WAN
+culture = wanka
+religion = animism
+capital = "Huancavelica"
+trade_goods = gold
+hre = no
+base_tax = 3
+manpower = 1
+citysize = 1100
+add_core = WAN
+discovered_by = INC
+discovered_by = CHM
+discovered_by = WAN
+discovered_by = AYM
