@@ -1,0 +1,19 @@
+#1874 - Bremen
+
+owner = XXX
+controller = XXX
+culture = hannoverian
+religion = catholic
+capital = "Bremen"
+trade_goods = fish
+hre = yes
+base_tax = 8
+manpower = 4
+citysize = 0
+fort1 = yes
+add_core = HSA
+temple = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

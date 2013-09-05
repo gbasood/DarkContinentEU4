@@ -1,0 +1,17 @@
+# 1769 - Görz
+owner = XXX
+controller = XXX
+add_core = AQU
+culture = austrian
+religion = catholic
+base_tax = 7
+trade_goods = iron
+manpower = 2
+fort1 = yes
+capital = "Gorizia"
+citysize = 0
+hre = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
