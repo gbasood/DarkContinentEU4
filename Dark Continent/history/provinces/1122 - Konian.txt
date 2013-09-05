@@ -1,0 +1,17 @@
+#1122 - Konian
+
+owner = SOF
+controller = SOF
+add_core = SOF
+culture = dyola
+religion = animism
+capital = "Beyla"
+trade_goods = slaves
+citysize = 4000
+hre = no
+base_tax = 1
+native_size = 30
+native_ferocity = 4
+native_hostileness = 6 
+discovered_by = SOF
+discovered_by = MAL

@@ -1,0 +1,17 @@
+#1136 - Gurma
+
+owner = SOK
+controller = SOK
+add_core = SOK
+culture = mali #mossi
+religion = animism
+capital = "Bilanga"
+trade_goods = grain
+citysize = 6000
+hre = no
+base_tax = 1
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+discovered_by = SON
+discovered_by = SOK

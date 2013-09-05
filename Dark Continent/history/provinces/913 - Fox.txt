@@ -1,0 +1,16 @@
+#913 - Fox
+
+owner = MEO
+controller = MEO
+add_core = MEO
+culture = dakota
+religion = shamanism
+capital = "Fox"
+trade_goods = iron
+citysize = 1000
+hre = no
+base_tax = 2
+manpower = 2
+native_size = 10
+native_ferocity = 2
+native_hostileness = 5

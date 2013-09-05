@@ -1,0 +1,18 @@
+#1079 - Viatka
+
+owner = QAS
+controller = QAS
+capital = "Hlynov"
+culture = russian
+religion = sunni
+trade_goods = copper
+hre = no
+base_tax = 2
+manpower = 1
+citysize = 1200
+add_core = MOS
+add_core = QAS
+fort1 = yes
+discovered_by = eastern
+discovered_by = GOL
+discovered_by = nomad_group

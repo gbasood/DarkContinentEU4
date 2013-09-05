@@ -1,0 +1,19 @@
+#1152 - Idah
+
+owner = HAU
+controller = HAU
+add_core = HAU
+culture = yorumba
+religion = animism
+trade_goods = ivory
+citysize = 5000
+capital = "Idah"
+hre = no
+base_tax = 1
+native_size = 50
+native_ferocity = 4
+native_hostileness = 9 
+discovered_by = HAU
+discovered_by = BEN
+discovered_by = KBO
+discovered_by = OYO

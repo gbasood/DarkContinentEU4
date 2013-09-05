@@ -1,0 +1,16 @@
+#914 - Winnebago
+
+owner = MEO
+controller = MEO
+add_core = MEO
+culture = dakota
+religion = shamanism
+capital = "Winnebago"
+trade_goods = fur
+citysize = 1500
+hre = no
+base_tax = 2
+manpower = 2
+native_size = 15
+native_ferocity = 1
+native_hostileness = 6

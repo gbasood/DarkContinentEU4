@@ -1,0 +1,17 @@
+#1139 - Gold Coast
+
+owner = ASH
+controller = ASH
+add_core = ASH
+culture = aka
+religion = animism
+capital = "Accra"
+trade_goods = gold
+citysize = 8000
+hre = no
+base_tax = 3
+native_size = 80
+native_ferocity = 4
+native_hostileness = 9
+discovered_province = ASH
+discovered_province = BEN
