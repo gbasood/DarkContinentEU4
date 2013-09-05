@@ -1,0 +1,18 @@
+#485 - Moron
+
+owner = ARW
+controller = ARW
+add_core = ARW
+culture = arawak
+religion = animism
+capital = "Moron"
+trade_goods = coffee 
+citysize = 2000
+hre = no
+base_tax = 5
+manpower = 1
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = ARW
+discovered_by = CAR

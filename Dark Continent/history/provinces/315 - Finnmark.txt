@@ -1,0 +1,17 @@
+#315 - Finnmark
+
+owner = SAM
+controller = SAM
+culture = sapmi
+religion = shamanism
+hre = no
+base_tax = 1
+manpower = 1
+trade_goods = fish
+capital = "Vardø"
+citysize = 1500
+fort1 = yes
+add_core = NOR
+add_coe = SAM
+discovered_by = eastern
+discovered_by = western
