@@ -1,18 +1,17 @@
-# 1743 Cambray
+#Närke
 
+add_core = SWE
 owner = XXX
 controller = XXX
-capital = "Cambray"
-citysize = 0
-culture = wallonian
+culture = swedish
 religion = catholic
-hre = yes
-base_tax = 5
-trade_goods = grain
+hre = no
+base_tax = 2
+trade_goods = iron
 manpower = 2
-add_core = BUR
-marketplace = yes
 fort1 = yes
+capital = "Örebro"
+workshop = yes #"Örebro borgarskap"
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

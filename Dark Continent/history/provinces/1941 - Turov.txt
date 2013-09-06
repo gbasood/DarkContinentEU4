@@ -1,18 +1,18 @@
-#1853 - Kozani
+#Turov
 
 owner = XXX
-controller = XXX
-culture = greek
+controller = XXX  
+culture = byelorussian
 religion = orthodox
-capital = "Monastir"
-trade_goods = wine
 hre = no
-base_tax = 6
+base_tax = 1
+trade_goods = wool 
 manpower = 2
+capital = "Turov"
 citysize = 0
 fort1 = yes
-add_core = BYZ
-add_core = TUR
+add_core = LIT
+add_core = UKR
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

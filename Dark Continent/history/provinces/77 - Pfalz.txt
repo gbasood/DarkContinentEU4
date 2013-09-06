@@ -4,14 +4,22 @@ capital = "Heidelberg"
 culture = rheinlaender
 religion = catholic
 trade_goods = wine
+owner = XXX
 base_tax = 6
 manpower = 2
 fort1 = yes
 citysize = 0
-owner = XXX
 controller = XXX
+add_core = PAL
 hre = yes
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+# Might fix Pfalz not leaving.
+1000.1.1 = {
+	owner = XXX
+	controller = XXX
+	remove_core = PAL
+}
