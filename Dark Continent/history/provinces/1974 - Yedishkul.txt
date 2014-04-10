@@ -1,7 +1,7 @@
 #1974 - Yedishkul
 
-owner = ZAP
-controller = ZAP
+owner = ZAZ
+controller = ZAZ
 culture = tartar
 religion = sunni
 hre = no
@@ -12,7 +12,7 @@ capital = "Kyzyl-Yar"
 citysize = 3671
 fort1 = yes
 add_core = CRI
-add_core = ZAP
+add_core = ZAZ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
