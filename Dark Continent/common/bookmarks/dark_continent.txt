@@ -1,0 +1,8 @@
+bookmark =
+{
+	name = "MODBOOKMARK_NAME"
+	desc = "MODBOOKMARK_DESC"
+	date = 1399.10.14
+	
+	country = FAR
+}

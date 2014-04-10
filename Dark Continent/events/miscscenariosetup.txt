@@ -139,7 +139,7 @@ country_event = {
 			shock = 1
 			fire = 1
 			siege = 0
-			maneuver = 3
+			manuever = 3
 		}
 	}
 }
