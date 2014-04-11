@@ -1,7 +1,7 @@
 government = elective_monarchy
 primary_culture = hawaiian
 religion = animism
-technology_group = new_world
+technology_group = south_american
 capital = 1240	# Hawaii
 
 1399.1.1 = {

@@ -1,7 +1,7 @@
 government = native_council
 primary_culture = carib
 religion = animism #teotl
-technology_group = new_world
+technology_group = north_american
 capital = 502	# Trinidad
 
 

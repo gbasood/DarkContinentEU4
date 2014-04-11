@@ -45,22 +45,73 @@ groups = {
 		cav_to_inf_ratio = 1.0
 		power = -1
 	}
+	north_american = {
+		modifier = 2.5
+		start_level = 1
+		cav_to_inf_ratio = 0.5
+	}
+	mesoamerican = {
+		modifier = 1.5
+		start_level = 1
+		cav_to_inf_ratio = 0.5
+		power = -2
+	}
+	south_american = {
+		modifier = 1.5
+		start_level = 1
+		cav_to_inf_ratio = 0.5
+		power = -2
+	}
 	sub_saharan = {
 		modifier = 1.0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
 		power = -2
 	}
+	sub_saharan_1 = {
+		modifier = 0.3
+		start_level = 1
+		cav_to_inf_ratio = 0.5
+		power = -1
+	}
+	s_new_world = {
+		modifier = 0.8
+		start_level = 0
+		cav_to_inf_ratio = 0.4
+		slow_limit = 4
+	}
 	new_world = {
-		modifier = 0.25
+		modifier = 0.85
 		start_level = 0
 		cav_to_inf_ratio = 0.5
 		power = -2
 	}
+	new_world_1 = {
+		modifier = 0.25
+		start_level = 0
+		cav_to_inf_ratio = 0.5
+		power = -1
+	}
+	new_world_2 = {
+		modifier = 0
+		start_level = 0
+		cav_to_inf_ratio = 0.5
+	}
 	mid_east = {
-		modifier = 1.0
+		modifier = 0
 		start_level = 3
 		cav_to_in_ratio = 0.5
+	}
+	far_east_1 = {
+		modifier = 0.2
+		start_level = 1
+		cav_to_inf_ratio = 0.5
+		power = -1
+	}
+	far_east_2 = {
+		modifier = 0
+		start_level = 1
+		cav_to_inf_ratio = 0.5
 	}
 }
 
