@@ -9,7 +9,7 @@ quality_quantity = 4
 serfdom_freesubjects = -4
 primary_culture = wanka
 religion = inca_religion
-technology_group = s_new_world
+technology_group = new_world
 capital = 811	# Tarma
 
 1385.1.1 = {

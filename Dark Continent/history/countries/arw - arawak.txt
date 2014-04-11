@@ -1,4 +1,4 @@
-government = regular_horde
+government = native_council
 aristocracy_plutocracy = 0
 centralization_decentralization = 5
 innovative_narrowminded = 3
@@ -8,8 +8,8 @@ land_naval = 3
 quality_quantity = 3
 serfdom_freesubjects = 4
 primary_culture = arawak
-religion = teotl
-technology_group = s_new_world
+religion = animism #teotl
+technology_group = new_world
 capital = 486	# Guantanamo
 
 

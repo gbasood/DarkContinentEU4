@@ -15,4 +15,4 @@ native_size = 5
 native_ferocity = 2
 native_hostileness = 5
 discovered_by = MEO
-discovered_by = ANI
+discovered_by = OJI

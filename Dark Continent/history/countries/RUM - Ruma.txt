@@ -1,0 +1,14 @@
+government = despotic_monarchy
+primary_culture = rumi
+religion = sunni
+technology_group = muslim
+
+1398.10.1 = {
+	monarch = {
+		name = "Basir I"
+		dynasty = "Rum"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

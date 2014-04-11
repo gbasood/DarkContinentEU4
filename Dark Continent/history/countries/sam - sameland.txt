@@ -1,4 +1,4 @@
-government = elective_monarchy
+government = noble_republic
 aristocracy_plutocracy = 2
 centralization_decentralization = 3
 innovative_narrowminded = 3
@@ -17,8 +17,8 @@ capital = 315	# Finnmark
 	monarch = {
 		name = "Aigin I"
 		dynasty = "Juuso"
-		adm = 7
-		dip = 6
-		mil = 4
+		adm = 5
+		dip = 4
+		mil = 3
 	}
 }

@@ -15,8 +15,8 @@ capital = 191	#Nevers
 1399.10.1 = {
 	monarch = {
 		name = "Hammadi Kanu"
-		adm = 4
-		dip = 8
-		mil = 5
+		adm = 3
+		dip = 6
+		mil = 4
 	}
 }

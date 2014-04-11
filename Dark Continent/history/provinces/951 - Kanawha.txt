@@ -3,8 +3,8 @@
 owner = LEN
 controller = LEN
 add_core = LEN
-culture = iroquis
-religion = shamanism
+culture = iroquois
+religion = totemism
 capital = "Kanawha"
 trade_goods = iron
 citysize = 1000

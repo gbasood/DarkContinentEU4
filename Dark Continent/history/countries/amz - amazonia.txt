@@ -1,4 +1,4 @@
-government = tribal_empire
+government = despotic_monarchy
 aristocracy_plutocracy = 2
 centralization_decentralization = 5
 innovative_narrowminded = 4
@@ -9,7 +9,7 @@ quality_quantity = 5
 serfdom_freesubjects = 2
 primary_culture = amazonian
 religion = inca_religion
-technology_group = s_new_world
+technology_group = new_world
 capital = 747	# Tucujulandia
 
 

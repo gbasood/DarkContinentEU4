@@ -16,8 +16,8 @@ capital = 1762	#Kassel
 	monarch = {
 		name = "Giyasuddin I"
 		dynasty = "Nabhan"
-		adm = 6
-		dip = 6
-		mil = 8
+		adm = 4
+		dip = 4
+		mil = 6
 	}
 }

@@ -3,7 +3,7 @@
 owner = MEO
 controller = MEO
 add_core = MEO
-culture = iroquis
+culture = iroquois
 religion = shamanism
 capital = "Michigan"
 trade_goods = fur

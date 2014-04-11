@@ -9,7 +9,7 @@ quality_quantity = 4
 serfdom_freesubjects = -4
 primary_culture = aimara
 religion = inca_religion
-technology_group = s_new_world
+technology_group = new_world
 capital = 802	# Chuquiabo
 
 1390.1.1 = {

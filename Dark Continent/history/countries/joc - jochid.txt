@@ -16,8 +16,8 @@ capital = 270	#Trakai
 	monarch = {
 		name = "Tokhtamysh I"
 		dynasty = "Genghisid"
-		adm = 6
-		dip = 4
-		mil = 7
+		adm = 4
+		dip = 3
+		mil = 5
 	}
 }

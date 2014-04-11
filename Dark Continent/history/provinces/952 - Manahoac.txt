@@ -2,8 +2,8 @@
 
 owner = LEN
 controller = LEN
-culture = iroquis
-religion = shamanism
+culture = iroquois
+religion = totemism
 capital = "Manahoac"
 trade_goods = iron
 citysize = 1000

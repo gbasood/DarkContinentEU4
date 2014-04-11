@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 49  153  186 }
 
@@ -68,7 +68,6 @@ monarch_names = {
         "Djan Mambet Bey #0" = 10
 	"Arslan #0" = 5
 	"Janai #0" = 5
-	"Mustafa #0" = 5
 	"Aisha #0" = -1
 	"Rayhana #0" = -1
 }

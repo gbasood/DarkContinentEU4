@@ -1,10 +1,10 @@
 #879 - Apache
 
-owner = NVJ
-controller = NVJ
-add_core = NVJ
+owner = NAH
+controller = NAH
+add_core = NAH
 culture = navajo 
-religion = animism 
+religion = totemism 
 capital = "Apache" 
 trade_goods = salt
 citysize = 1000

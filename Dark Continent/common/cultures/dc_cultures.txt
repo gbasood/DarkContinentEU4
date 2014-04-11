@@ -1,0 +1,74 @@
+scandinavian = {
+	skandistani = {
+		primary = SKA
+		dynasty_names = {
+			"Boke Temur" "Temur-chi" "Ulagan Temur" "Temurcher" "Koke Temur" "Delger Bayar"
+		}
+	}
+}
+
+french = {
+	faransi = {
+		primary = FAR
+		dynasty_names = {
+			Alawiyya Amadou Barek Kuti Lahsini Moussa Sahiri
+		}
+	}
+}
+
+german = {
+	maeni = {
+		primary = ALM
+		dynasty_names = { 
+			Osmanli Karamanli Mentesoglu Ramazanoglu Saruhanoglu Dulkadiroglu Candarli Aydinoglu
+			Hashim Hafsid al-Qasimi "Sa'ud" Nabhan al-Said Alaoui Alawiyya
+		}
+	}
+}
+west_slavic = {
+	magyari = {
+		primary = MAA
+		dynasty_names = {
+			"Boke Temur" Temur-chi "Ulagan Temur" Temurcher "Koke Temur" "Delger Bayar"
+			Magyari Ravna Salmiianov Vylka
+		}
+	}
+}
+
+latin = {
+	rumi = {
+		primary = RUM
+		dynasty_names = {
+			Ansari Azizi Farhad Hafiz Kansur Resid Rum Sayfuddin Zangi
+		}
+	}
+}
+
+carribean = {
+	graphical_culture = southamericagfx
+
+	arawak = {
+		primary = ARW
+	}
+	carib = {
+		primary = CAR
+	}
+}
+
+eskaleut = {
+	inuit = {
+		primary = INU
+		dynasty_names = {
+			Aglukark Aglukkaq Allakariallak Aupilaarjuk Irqittuq Tungilik
+		}
+	}
+}
+
+north_american = {
+	menominee = {
+		primary = MEO
+		dynasty_names = {
+			Awaehsaeh Kenew Mahwaew Mekek Mos Otaeciah
+		}
+	}
+}

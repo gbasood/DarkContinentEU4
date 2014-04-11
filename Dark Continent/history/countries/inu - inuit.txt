@@ -1,4 +1,4 @@
-government = regular_horde
+government = native_council
 aristocracy_plutocracy = 1
 centralization_decentralization = 5
 innovative_narrowminded = 1
@@ -8,7 +8,7 @@ land_naval = 3
 quality_quantity = 3
 serfdom_freesubjects = 4
 primary_culture = inuit
-religion = spiritualism
+religion = shamanism
 technology_group = new_world
 capital = 996	# Innu
 

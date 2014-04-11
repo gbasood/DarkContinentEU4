@@ -1,6 +1,6 @@
 #Country Name: Al-Alemand
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 114  156  131 }
 
@@ -63,7 +63,6 @@ monarch_names = {
 	"Fayiz #0" = 5
 	"Hadj #0" = 5
 	"Harun #0" = 5
-	"Hasan #0" = 5
 	"Husayn #0" = 5
 	"Qadir #0" = 5
 	"Rasim #0" = 5
