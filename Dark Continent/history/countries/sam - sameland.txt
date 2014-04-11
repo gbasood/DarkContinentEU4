@@ -1,12 +1,4 @@
 government = noble_republic
-aristocracy_plutocracy = 2
-centralization_decentralization = 3
-innovative_narrowminded = 3
-mercantilism_freetrade = 2
-offensive_defensive = 3
-land_naval = 1
-quality_quantity = 4
-serfdom_freesubjects = 4
 primary_culture = sapmi
 religion = shamanism
 technology_group = eastern

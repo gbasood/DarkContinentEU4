@@ -1,12 +1,4 @@
 government = noble_republic
-aristocracy_plutocracy = -5
-centralization_decentralization = 1
-innovative_narrowminded = 3
-mercantilism_freetrade = -2
-offensive_defensive = 3
-land_naval = 5
-quality_quantity = 4
-serfdom_freesubjects = 3
 primary_culture = icelandic
 religion = catholic
 technology_group = western
@@ -17,9 +9,9 @@ capital = 370 #Reykjavik
 	monarch = {
 		name = "Folke"
 		dynasty = "Bolt"
-		DIP = 3
-		ADM = 7
-		MIL = 8
+		DIP = 2
+		ADM = 4
+		MIL = 6
 	}
 }
 
