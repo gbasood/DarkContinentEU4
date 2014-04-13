@@ -1,0 +1,21 @@
+black_death = {
+	stability_cost_modifier = 0.05
+	range = -0.5
+	trade_range_modifier = -0.5
+}
+
+black_death_colonist = {
+	stability_cost_modifier = 0.05
+	range = -0.5
+	trade_range_modifier = -0.5
+}
+
+black_death_survivor = {
+	legitimacy = 0.01
+	colonist_cost = -0.05
+	advisor_cost = -0.35
+}
+byzantine_influx = {
+	technology_cost = -0.05
+	advisor_pool = 1
+}

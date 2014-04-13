@@ -1,15 +1,12 @@
-#Dark Continent events 31500-31599
+namespace = darkcontinent
 
-###################################
-#Heart of Darkness Campaign
-###################################
 # Startup, Ottoman modernization
 country_event = {
 
-	id = 31501
+	id = darkcont.1
 
-	title = "EVTNAME31501"
-	desc = "EVTDESC31501"
+	title = "darkcont.1.name"
+	desc = "darkcont.1.desc"
 
 	trigger = {
 		TUR = { has_country_flag = black_death_scn }
@@ -28,8 +25,8 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31501"
-		technology_group = mid_east
+		name = "darkcont.1.opta"
+		change_technology_group = mid_east
 		set_global_flag = black_death_scn_g
 	}
 }
@@ -37,10 +34,10 @@ country_event = {
 # Startup, European remnants still crippled
 country_event = {
 
-	id = 31502
+	id = darkcont.2
 
-	title = "EVTNAME31502"
-	desc = "EVTDESC31502"
+	title = "darkcont.2.name"
+	desc = "darkcont.2.desc"
 
 	trigger = {
 		TUR = { has_country_flag = black_death_scn }
@@ -62,10 +59,10 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31502"
+		name = "darkcont.2.a"
 		set_country_flag = black_death_scn
-		random_owned = {
-			base_tax = 1
+		random_owned_province = {
+			add_base_tax = 1
 			add_building = temple
 		}
 		add_country_modifier = {
@@ -75,12 +72,13 @@ country_event = {
 	}
 }
 
+#Easterners get modernized, i.e. Muscovy, Georgia and Crimea
 country_event = {
 
-	id = 31503
+	id = darkcont.3
 
-	title = "EVTNAME31502"
-	desc = "EVTDESC31502"
+	title = "darkcont.3.name"
+	desc = "darkcont.3.desc"
 
 	trigger = {
 		TUR = { has_country_flag = black_death_scn }
@@ -99,11 +97,11 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31502"
-		technology_group = western
+		name = "darkcont.3.a"
+		change_technology_group = western
 		set_country_flag = black_death_scn
-		random_owned = {
-			base_tax = 1
+		random_owned_province = {
+			add_base_tax = 1
 			add_building = temple
 		}
 		add_country_modifier = {
@@ -116,11 +114,11 @@ country_event = {
 # Muslim renaissance, around 1425
 country_event = {
 
-	id = 31504
+	id = darkcont.48
 
-	title = "EVTNAME31504"
-	desc = "EVTDESC31504"
-
+	title = "darkcont.48.name"
+	desc = "darkcont.48.desc"
+	
 	trigger = {
 		has_global_flag = black_death_scn_g
 		technology_group = muslim
@@ -132,8 +130,8 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31504"
-		technology_group = mid_east
+		name = "darkcont.48.a"
+		change_technology_group = mid_east
 		define_conquistador = {
 			name = "Badawi Shiekh"
 			shock = 1
@@ -147,10 +145,10 @@ country_event = {
 # Horde civilization, around 1480
 country_event = {
 
-	id = 31505
+	id = darkcont.4
 
-	title = "EVTNAME31504"
-	desc = "EVTDESC31504"
+	title = "darkcont.4.name"
+	desc = "darkcont.4.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -171,10 +169,10 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31504"
-		technology_group = mid_east
-		unit_type = muslim
-		government = despotic_monarchy
+		name = "darkcont.4.a"
+		change_technology_group = mid_east
+		change_unit_type = muslim
+		change_government = despotic_monarchy
 		create_conquistador = 5
 	}
 }
@@ -182,10 +180,10 @@ country_event = {
 # African/American first revolution, ~1405 to prevent boredom
 country_event = {
 
-	id = 31506
+	id = darkcont.5
 
-	title = "EVTNAME31506"
-	desc = "EVTDESC31506"
+	title = "darkcont.5.name"
+	desc = "darkcont.5.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -198,27 +196,27 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31506"
-		technology_group = new_world_1
+		name = "darkcont.5.a"
+		change_technology_group = new_world_1
 		create_conquistador = 45
 		create_conquistador = 25
-		random_owned = {
-			base_tax = 2
+		random_owned_province = {
+			add_base_tax = 2
 		}
-		random_owned = {
-			base_tax = 1
+		random_owned_province = {
+			add_base_tax = 1
 		}
-		random_owned = {
-			base_tax = 1
+		random_owned_province = {
+			add_base_tax = 1
 		}
 	}
 }
 country_event = {
 
-	id = 31507
+	id = darkcont.6
 
-	title = "EVTNAME31506"
-	desc = "EVTDESC31506"
+	title = "darkcont.6.name"
+	desc = "darkcont.6.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -231,24 +229,24 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31506"
-		technology_group = new_world_1
+		name = "darkcont.6.a"
+		change_technology_group = new_world_1
 		create_conquistador = 45
 		create_conquistador = 25
-		random_owned = {
-			base_tax = 2
+		random_owned_province = {
+			add_base_tax = 2
 		}
-		random_owned = {
-			base_tax = 2
+		random_owned_province = {
+			add_base_tax = 2
 		}
 	}
 }
 country_event = {
 
-	id = 31508
+	id = darkcont.7
 
-	title = "EVTNAME31506"
-	desc = "EVTDESC31506"
+	title = "darkcont.7.name"
+	desc = "darkcont.7.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -261,12 +259,12 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31506"
-		technology_group = sub_saharan_1
+		name = "darkcont.7.a"
+		change_technology_group = sub_saharan_1
 		create_conquistador = 45
 		create_conquistador = 25
-		random_owned = {
-			base_tax = 2
+		random_owned_province = {
+			add_base_tax = 2
 		}
 	}
 }
@@ -274,10 +272,10 @@ country_event = {
 # Chinese modernization and exploration, ~1470
 country_event = {
 
-	id = 31509
+	id = darkcont.8
 
-	title = "EVTNAME31509"
-	desc = "EVTDESC31509"
+	title = "darkcont.8.name"
+	desc = "darkcont.8.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -304,8 +302,8 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31509"
-		technology_group = far_east_2
+		name = "darkcont.8.a"
+		change_technology_group = far_east_2
 		create_conquistador = 15
 		create_explorer = 15
 	}
@@ -313,10 +311,10 @@ country_event = {
 # Ming exception - head start
 country_event = {
 
-	id = 31510
+	id = darkcont.9
 
-	title = "EVTNAME31509"
-	desc = "EVTDESC31509"
+	title = "darkcont.9.name"
+	desc = "darkcont.9.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -336,8 +334,8 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31509"
-		technology_group = far_east_2
+		name = "darkcont.9.a"
+		change_technology_group = far_east_2
 		create_conquistador = 15
 		create_explorer = 45
 		create_explorer = 25
@@ -347,10 +345,10 @@ country_event = {
 # Indian renaissance, ~1490
 country_event = {
 
-	id = 31511
+	id = darkcont.10
 
-	title = "EVTNAME31509"
-	desc = "EVTDESC31509"
+	title = "darkcont.10.name"
+	desc = "darkcont.10.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -366,8 +364,8 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31509"
-		technology_group = far_east_2
+		name = "darkcont.10.a"
+		change_technology_group = far_east_2
 		create_conquistador = 15
 		create_explorer = 15
 	}
@@ -376,10 +374,10 @@ country_event = {
 #African/American government reforms ~1485
 country_event = {
 
-	id = 31512
+	id = darkcont.11
 
-	title = "EVTNAME31512"
-	desc = "EVTDESC31512"
+	title = "darkcont.11.name"
+	desc = "darkcont.11.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -404,17 +402,17 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31512"
-		government = despotic_monarchy
+		name = "darkcont.11.a"
+		change_government = despotic_monarchy
 	}
 }
 
 country_event = {
 
-	id = 31513
+	id = darkcont.12
 
-	title = "EVTNAME31512"
-	desc = "EVTDESC31512"
+	title = "darkcont.12.name"
+	desc = "darkcont.12.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -439,50 +437,18 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31512"
-		government = noble_republic
-	}
-}
-
-country_event = {
-
-	id = 31514
-
-	title = "EVTNAME31512"
-	desc = "EVTDESC31512"
-
-	trigger = {
-		has_global_flag = black_death_scn_g
-		OR = {
-			technology_group = western
-			technology_group = new_world_1
-			technology_group = new_world_2
-			technology_group = sub_saharan_1
-			technology_group = mid_east
-			technology_group = far_east_1
-			technology_group = far_east_2
-		}
-		government = tribal_empire
-		year = 1485
-	}
-
-	mean_time_to_happen = {
-		months = 24
-	}
-
-	option = {
-		name = "EVTOPTA31512"
-		government = imperial_government
+		name = "darkcont.12.a"
+		change_government = noble_republic
 	}
 }
 
 # African modernization, ~1545
 country_event = {
 
-	id = 31515
+	id = darkcont.13
 
-	title = "EVTNAME31515"
-	desc = "EVTDESC31515"
+	title = "darkcont.13.name"
+	desc = "darkcont.13.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -500,8 +466,8 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31515"
-		technology_group = mid_east
+		name = "darkcont.13.a"
+		change_technology_group = mid_east
 		create_conquistador = 45
 		create_explorer = 5
 	}
@@ -510,11 +476,11 @@ country_event = {
 # Asia discovers N America, hopefully
 country_event = {
 
-	id = 31516
+	id = darkcont.14
 	major = yes
 
-	title = "EVTNAME31516"
-	desc = "EVTDESC31516"
+	title = "darkcont.14.name"
+	desc = "darkcont.14.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -539,18 +505,18 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31516"
-		prestige = 0.02
+		name = "darkcont.14.a"
+		add_prestige = 2
 	}
 }
 
 country_event = {
 
-	id = 31517
+	id = darkcont.15
 	major = yes
 
-	title = "EVTNAME31517"
-	desc = "EVTDESC31516"
+	title = "darkcont.15.name"
+	desc = "darkcont.15.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -575,52 +541,53 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31516"
-		prestige = 0.05
+		name = "darkcont.15.a"
+		add_prestige = 5
 	}
 }
 
 # China, Korea, Japan, Brunei AI forced to take QFTNW
-country_event = {
-
-	id = 31518
-
-	title = "EVTNAME31518"
-	desc = "EVTDESC31518"
-
-	trigger = {
-		has_global_flag = black_death_scn_g
-		OR = {
-			tag = MNG
-			tag = KOR
-			tag = CHI
-			tag = BEI
-			culture_group = japan_group
-		}
-		government_tech = 8
-		trade_tech = 7
-		ai = yes
-		NOT = { idea = quest_for_the_new_world }
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "EVTOPTA31506"
-		add_idea = quest_for_the_new_world
-		create_explorer = 25
-	}
-}
+# Note since that no easy equivalent exists for EU4 this event does nothing. Possibly just change historic ideas instead?
+#country_event = {
+#
+#	id = darkcont.16
+#
+#	title = "darkcont.16.name"
+#	desc = "darkcont.16.desc"
+#
+#	trigger = {
+#		has_global_flag = black_death_scn_g
+#		OR = {
+#			tag = MNG
+#			tag = KOR
+#			tag = CHI
+#			tag = BEI
+#			culture_group = japan_group
+#		}
+#		government_tech = 8
+#		trade_tech = 7
+#		ai = yes
+#		NOT = { idea = quest_for_the_new_world }
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "darkcont.16.a"
+#		add_idea = quest_for_the_new_world
+#		create_explorer = 25
+#	}
+#}
 
 # Asia contacts Hawaii
 country_event = {
 
-	id = 31519
+	id = darkcont.17
 
-	title = "EVTNAME31519"
-	desc = "EVTDESC31519"
+	title = "darkcont.17.name"
+	desc = "darkcont.17.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -646,32 +613,32 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31519"
-		prestige = 0.05
-		1240 = { discover = yes }
-		HAW = { country_event = 31520 }
+		name = "darkcont.17.a"
+		add_prestige = 5
+		discover_province = 1240
+		HAW = { country_event = darkcont.18 }
 	}
 }
 
 country_event = {
 
-	id = 31520
+	id = darkcont.18
 	
-	title = "EVTNAME31520"
-	desc = "EVTDESC31520"
+	title = "darkcont.18.name"
+	desc = "darkcont.18.desc"
 
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA31520"
-		technology_group = new_world_2
+		name = "darkcont.18.a"
+		change_technology_group = new_world_2
 		725 = { discover = yes }	# Manchu
 		735 = { discover = yes }	# Korea
 		1020 = { discover = yes }	# Japan
 		1821 = { discover = yes }	# Ming
-		government_tech = 0.9
-		trade_tech = 0.9
-		naval_tech = 0.9
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
 		create_explorer = 65
 	}
 }
@@ -679,10 +646,10 @@ country_event = {
 #Catalunya kept out of the game for awhile
 country_event = {
 
-	id = 31521
+	id = darkcont.19.desc
 
-	title = "EVTNAME31521"
-	desc = "EVTDESC31521"
+	title = "darkcont.19.name"
+	desc = "darkcont.19.desc"
 
 	trigger = {
 		TUR = { has_country_flag = black_death_scn }
@@ -703,7 +670,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31521"
+		name = "darkcont.19.a"
 		add_country_modifier = {
 			name = "black_death_survivor"
 			duration = -1
@@ -716,10 +683,10 @@ country_event = {
 #N America Modernizes
 country_event = {
 
-	id = 31523
+	id = darkcont.20
 
-	title = "EVTNAME31523"
-	desc = "EVTDESC31523"
+	title = "darkcont.20.name"
+	desc = "darkcont.20.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -744,19 +711,19 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31523"
-		stability = 1
-		technology_group = new_world_2
+		name = "darkcont.20.a"
+		add_stability = 1
+		change_technology_group = new_world_2
 	}
 }
 
 #S America Modernizes
 country_event = {
 
-	id = 31524
+	id = darkcont.21
 
-	title = "EVTNAME31523"
-	desc = "EVTDESC31523"
+	title = "darkcont.21.name"
+	desc = "darkcont.21.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -781,20 +748,20 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31523"
-		stability = 1
-		technology_group = new_world_2
+		name = "darkcont.21.a"
+		add_stability = 1
+		change_technology_group = new_world_2
 	}
 }
 
 # Someone discovers S America, eventually
 country_event = {
 
-	id = 31525
+	id = darkcont.22
 	major = yes
 
-	title = "EVTNAME31525"
-	desc = "EVTDESC31525"
+	title = "darkcont.22.name"
+	desc = "darkcont.22.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -819,18 +786,18 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31516"
-		prestige = 0.02
+		name = "darkcont.22.a"
+		add_prestige = 2
 	}
 }
 
 country_event = {
 
-	id = 31526
+	id = darkcont.23
 	major = yes
 
-	title = "EVTNAME31526"
-	desc = "EVTDESC31526"
+	title = "darkcont.23.name"
+	desc = "darkcont.23.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -855,18 +822,18 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31516"
-		prestige = 0.05
+		name = "darkcont.23.a"
+		add_prestige = 5
 	}
 }
 
 country_event = {
 
-	id = 31527
+	id = darkcont.24
 	major = yes
 
-	title = "EVTNAME31527"
-	desc = "EVTDESC31527"
+	title = "darkcont.24.name"
+	desc = "darkcont.24.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -891,46 +858,47 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31516"
-		prestige = 0.05
+		name = "darkcont.24.a"
+		add_prestige = 5
 	}
 }
 
 # Give the American AI QFtNW
-country_event = {
-
-	id = 31528
-
-	title = "EVTNAME31528"
-	desc = "EVTDESC31528"
-
-	trigger = {
-		has_global_flag = black_death_scn_g
-		technology_group = new_world_2
-		government_tech = 16
-		ai = yes
-		NOT = { idea = quest_for_the_new_world }
-	}
-
-	mean_time_to_happen = {
-		days = 7
-	}
-
-	option = {
-		name = "EVTOPTA31506"
-		add_idea = quest_for_the_new_world
-		create_conquistador = 25
-		create_explorer = 25
-	}
-}
+# Note since that no easy equivalent exists for EU4 this event does nothing. Possibly just change historic ideas instead?
+#country_event = {
+#
+#	id = 31528
+#
+#	title = "darkcont.25.name"
+#	desc = "EVTDESC31528"
+#
+#	trigger = {
+#		has_global_flag = black_death_scn_g
+#		change_technology_group = new_world_2
+#		government_tech = 16
+#		ai = yes
+#		NOT = { idea = quest_for_the_new_world }
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 7
+#	}
+#
+#	option = {
+#		name = "EVTOPTA31506"
+#		add_idea = quest_for_the_new_world
+#		create_conquistador = 25
+#		create_explorer = 25
+#	}
+#}
 
 #HRE BE GONE
 country_event = {
 
-	id = 31529
+	id = darkcont.26
 
-	title = "EVTNAME31529"
-	desc = "EVTDESC31529"
+	title = "darkcont.26.name"
+	desc = "darkcont.26.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -947,7 +915,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31529"
+		name = "darkcont.26.a"
 		dismantle_hre = yes
 	}
 }
@@ -955,10 +923,10 @@ country_event = {
 #North America Discovered
 country_event = {
 
-	id = 31530
+	id = darkcont.27
 
-	title = "EVTNAME31530"
-	desc = "EVTDESC31530"
+	title = "darkcont.27.name"
+	desc = "darkcont.27.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -983,18 +951,18 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31530"
-		prestige = 0.02
+		name = "darkcont.27.a"
+		add_prestige = 2
 	}
 }
 
 #Religious Ultimatums
 country_event = {
 
-	id = 31531
+	id = darkcont.28
 
-	title = "EVTNAME31531"
-	desc = "EVTDESC31531"
+	title = "darkcont.28.name"
+	desc = "darkcont.28.desc"
 
 	major = yes
 
@@ -1014,32 +982,32 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31531"
+		name = "darkcont.28.a"
 		ai_chance = { factor = 50 }
-		stability = -1
+		add_stability = -1
 	}
 	option = {
-		name = "EVTOPTB31531"
+		name = "darkcont.28.b"
 		ai_chance = { factor = 50 }
-		religion = norse_rel 
-		random_owned = {
+		change_religion = norse_rel 
+		random_owned_province = = {
 			limit = { is_core = THIS }
-			religion = norse_rel 
+			change_religion = norse_rel 
 		}
-		random_owned = {
+		random_owned_province = = {
 			limit = { is_core = THIS }
-			religion = norse_rel 
+			change_religion = norse_rel 
 		}
-		stability = -1
+		add_stability = -1
 	}
 }
 
 country_event = {
 
-	id = 31532
+	id = darkcont.29
 
-	title = "EVTNAME31531"
-	desc = "EVTDESC31532"
+	title = "darkcont.29.name"
+	desc = "darkcont.29.desc"
 
 	major = yes
 
@@ -1059,41 +1027,41 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31532"
+		name = "darkcont.29.a"
 		ai_chance = { factor = 65 }
-		random_owned = {
+		random_owned_province = {
 			limit = { religion = orthodox }
-			religion = sunni
+			change_religion = sunni
 		}
-		random_owned = {
+		random_owned_province = {
 			limit = { religion = orthodox }
-			religion = sunni
+			change_religion = sunni
 		}
 		313 = { add_building = fort1 }
 		1077 = { add_building = fort1 }
-		stability = -1
+		add_stability = -1
 	}
 	option = {
-		name = "EVTOPTB31532"
+		name = "darkcont.29.b"
 		ai_chance = { factor = 35 }
-		random_owned = {
+		random_owned_province = {
 			limit = { religion = sunni }
-			religion = orthodox
+			change_religion = orthodox
 		}
-		random_owned = {
+		random_owned_province = {
 			limit = { religion = sunni }
-			religion = orthodox
+			change_religion = orthodox
 		}
-		religion = orthodox
-		government = feudal_monarchy
-		army_tradition = 0.2
-		government_tech = 0.25
-		land_tech = 0.25
-		technology_group = western
-		unit_type = eastern
+		change_religion = orthodox
+		change_government = feudal_monarchy
+		add_army_tradition = 20
+		add_adm_power = 50
+		add_mil_power = 0.25
+		change_technology_group = western
+		change_unit_type = eastern
 		313 = { add_building = fort1 }
 		1077 = { add_building = fort1 }
-		stability = -1
+		add_stability = -1
 		change_tag = NZH
 	}
 }
@@ -1108,10 +1076,10 @@ country_event = {
 # Scotland and Norway unite
 country_event = {
 
-	id = 31538
+	id = darkcont.30
 
-	title = "EVTNAME31540"
-	desc = "EVTDESC31540"
+	title = "darkcont.30.name"
+	desc = "darkcont.30.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -1139,21 +1107,21 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31540"
+		name = "darkcont.30.a"
 		inherit = SCO
 		add_core = 253	# Western Isles
-		stability = 1
-		government_tech = 0.45
+		add_stability = 1
+		add_adm_power = 75
 	}
 }
 
 # Asia contacts Aotearoa
 country_event = {
 
-	id = 31539
+	id = darkcont.31
 
-	title = "EVTNAME31539"
-	desc = "EVTDESC31519"
+	title = "darkcont.31.name"
+	desc = "darkcont.31.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -1180,19 +1148,19 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31519"
-		prestige = 0.05
-		AOT = { country_event = 31520 }
+		name = "darkcont.31.a"
+		add_prestige = 5
+		AOT = { country_event = darkcont.18 }
 	}
 }
 
 # Scotland and Norway unite...
 country_event = {
 
-	id = 31540
+	id = darkcont.32
 
-	title = "EVTNAME31540"
-	desc = "EVTDESC31540"
+	title = "darkcont.32.name"
+	desc = "darkcont.32.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -1223,11 +1191,11 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31540"
+		name = "darkcont.32.a"
 		inherit = NOR
-		add_core = 369	# Orkney
-		stability = 1
-		government_tech = 0.25
+		#add_core = 369	# Orkney
+		add_stability = 1
+		add_adm_power = 50
 		set_country_flag = bd_reclaim_highlands
 	}
 }
@@ -1235,10 +1203,10 @@ country_event = {
 #...and expand
 province_event = {
 
-	id = 31541
+	id = darkcont.33
 
-	title = "EVTNAME31541"
-	desc = "EVTDESC31541"
+	title = "darkcont.33.name"
+	desc = "darkcont.33.desc"
 
 	trigger = {
 		owner = {
@@ -1254,10 +1222,10 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31541"
+		name = "darkcont.33.a"
 		random_empty_neighbor_province = {
-			create_colony = 1
-			multiply_citysize = 10
+			create_colony = 1000
+			add_base_tax = 1
 		}
 	}
 }
@@ -1265,10 +1233,10 @@ province_event = {
 #Sameland too!
 province_event = {
 
-	id = 31542
+	id = darkcont.34
 
-	title = "EVTNAME31542"
-	desc = "EVTDESC31542"
+	title = "darkcont.34.name"
+	desc = "darkcont.34.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -1282,19 +1250,19 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31542"
-		owner = { government_tech = 0.15 }
-		owner = { trade_tech = 0.15 }
-		1777 = { add_building = fort1 }
+		name = "darkcont.34.a"
+		owner = { add_adm_power = 30 }
+		owner = { add_dip_power = 30 }
+		1777 = { add_building = fort2 }
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		owner = { set_country_flag = bd_sami_expand }
 	}
@@ -1303,10 +1271,10 @@ province_event = {
 #Muslim seperatists kept out of the game for awhile
 country_event = {
 
-	id = 31543
+	id = darkcont.35
 
-	title = "EVTNAME31543"
-	desc = "EVTDESC31543"
+	title = "darkcont.35.name"
+	desc = "darkcont.35.desc"
 
 	trigger = {
 		TUR = { has_country_flag = black_death_scn }
@@ -1335,7 +1303,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31543"
+		name = "darkcont.35.a"
 	}
 }
 
@@ -1343,11 +1311,11 @@ country_event = {
 #Skandistan appears!
 province_event = {
 
-	id = 31544
+	id = darkcont.36
 	major = yes
 
-	title = "EVTNAME31544"
-	desc = "EVTDESC31544"
+	title = "darkcont.36.name"
+	desc = "darkcont.36.desc"
 
 	trigger = {
 		owner = { 
@@ -1371,41 +1339,41 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31544"
+		name = "darkcont.36.a"
 		ai_chance = { factor = 85 }
-		owner = { technology_group = mid_east }
+		owner = { change_technology_group = mid_east }
 		random_list = {
 			55 = {
-				owner = { religion = sufism }
-				religion = sufism
+				owner = { change_religion = sufism }
+				change_religion = sufism
 			}
 			35 = {
-				owner = { religion = khariji }
-				religion = khariji
+				owner = { change_religion = khariji }
+				change_religion = khariji
 			}
 			5 = {
-				owner = { religion = shiite }
-				religion = shiite
+				owner = { change_religion = shiite }
+				change_religion = shiite
 			}
 			5 = {
-				owner = { religion = sunni }
-				religion = sunni
+				owner = { change_religion = sunni }
+				change_religion = sunni
 			}
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -1414,7 +1382,7 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTB31544"
+		name = "darkcont.36.b"
 		ai_chance = {
 			factor = 15
 
@@ -1424,24 +1392,24 @@ province_event = {
 			}
 		}
 		owner = {
-			technology_group = mid_east
-			religion = buddhism
+			change_technology_group = mid_east
+			change_religion = buddhism
 		}
-		religion = buddhism
+		change_religion = buddhism
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
-		}
-		random_empty_neighbor_province = {
-			create_colony = 1
-			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
+		}
+		random_empty_neighbor_province = {
+			create_colony = 1000
+			add_core = THIS
+			add_base_tax = 1
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -1453,11 +1421,11 @@ province_event = {
 #Catalunya appears!
 province_event = {
 
-	id = 31545
+	id = darkcont.37
 	major = yes
 
-	title = "EVTNAME31544"
-	desc = "EVTDESC31545"
+	title = "darkcont.37.name"
+	desc = "darkcont.37.desc"
 
 	trigger = {
 		owner = {
@@ -1481,51 +1449,51 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31545"
+		name = "darkcont.37.a"
 		ai_chance = { factor = 75 }
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
-			religion = judaism
+			add_base_tax = 1
+			change_religion = jewish
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
 		}
 	}
 	option = {
-		name = "EVTOPTB31545"
+		name = "darkcont.37.b"
 		ai_chance = { factor = 25 }
-		religion = judaism
+		change_religion = jewish
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
-			religion = judaism
+			add_base_tax = 1
+			change_religion = jewish
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
-			religion = judaism
+			add_base_tax = 1
+			change_religion = jewish
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		owner = {
-			religion = judaism
+			change_religion = jewish
 			remove_country_modifier = black_death_colonist
 		}
 	}
@@ -1534,10 +1502,10 @@ province_event = {
 #Faransa appears!
 province_event = {
 
-	id = 31546
+	id = darkcont.38
 	major = yes
 
-	title = "EVTNAME31544"
+	title = "darkcont.38.name"
 	desc = "EVTDESC31546"
 
 	trigger = {
@@ -1562,41 +1530,41 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31546"
+		name = "darkcont.38.a"
 		ai_chance = { factor = 85 }
-		owner = { technology_group = mid_east }
+		owner = { change_technology_group = mid_east }
 		random_list = {
 			55 = {
-				owner = { religion = sufism }
-				religion = sufism
+				owner = { change_religion = sufism }
+				change_religion = sufism
 			}
 			25 = {
-				owner = { religion = khariji }
-				religion = khariji
+				owner = { change_religion = khariji }
+				change_religion = khariji
 			}
 			10 = {
-				owner = { religion = shiite }
-				religion = shiite
+				owner = { change_religion = shiite }
+				change_religion = shiite
 			}
 			5 = {
-				owner = { religion = sunni }
-				religion = sunni
+				owner = { change_religion = sunni }
+				change_religion = sunni
 			}
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -1606,7 +1574,7 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTB31546"
+		name = "darkcont.38.b"
 		ai_chance = {
 			factor = 15
 
@@ -1620,26 +1588,26 @@ province_event = {
 			}
 		}
 		owner = {
-			technology_group = mid_east
-			religion = zoroastrian
-			prestige = 0.10
-			legitimacy = 0.10
+			change_technology_group = mid_east
+			change_religion = zoroastrian
+			add_prestige = 10
+			add_legitimacy = 10
 		}
-		religion = zoroastrian
+		change_religion = zoroastrian
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
-		}
-		random_empty_neighbor_province = {
-			create_colony = 1
-			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
+		}
+		random_empty_neighbor_province = {
+			create_colony = 1000
+			add_core = THIS
+			add_base_tax = 1
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -1652,11 +1620,11 @@ province_event = {
 #Ruma appears!
 province_event = {
 
-	id = 31547
+	id = darkcont.39
 	major = yes
 
-	title = "EVTNAME31544"
-	desc = "EVTDESC31547"
+	title = "darkcont.39.name"
+	desc = "darkcont.39.desc"
 
 	trigger = {
 		owner = { 
@@ -1680,38 +1648,38 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31547"
+		name = "darkcont.39.a"
 		ai_chance = { factor = 90 }
-		owner = { technology_group = mid_east }
+		owner = { change_technology_group = mid_east }
 		random_list = {
 			40 = {
-				owner = { religion = sufism }
-				religion = sufism
+				owner = { change_religion = sufism }
+				change_religion = sufism
 			}
 			50 = {
-				owner = { religion = khariji }
-				religion = khariji
+				owner = { change_religion = khariji }
+				change_religion = khariji
 			}
 			10 = {
-				owner = { religion = shiite }
-				religion = shiite
+				owner = { change_religion = shiite }
+				change_religion = shiite
 			}
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
-			religion = orthodox
+			add_base_tax = 1
+			change_religion = orthodox
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -1720,7 +1688,7 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTB31547"
+		name = "darkcont.39.b"
 		ai_chance = {
 			factor = 10
 
@@ -1734,25 +1702,25 @@ province_event = {
 			}
 		}
 		owner = {
-			technology_group = mid_east
-			religion = orthodox
+			change_technology_group = mid_east
+			change_religion = orthodox
 		}
-		religion = orthodox
+		change_religion = orthodox
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
-		}
-		random_empty_neighbor_province = {
-			create_colony = 1
-			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
-			religion = khariji
+			add_base_tax = 1
+		}
+		random_empty_neighbor_province = {
+			create_colony = 1000
+			add_core = THIS
+			add_base_tax = 1
+			change_religion = khariji
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -1764,11 +1732,11 @@ province_event = {
 #Al-Alemand appears!
 province_event = {
 
-	id = 31548
+	id = darkcont.40
 	major = yes
 
-	title = "EVTNAME31544"
-	desc = "EVTDESC31548"
+	title = "darkcont.40.name"
+	desc = "darkcont.40.desc"
 
 	trigger = {
 		owner = { 
@@ -1792,40 +1760,40 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31544"
-		owner = { technology_group = mid_east }
+		name = "darkcont.40.a"
+		owner = { change_technology_group = mid_east }
 		random_list = {
 			35 = {
-				owner = { religion = sufism }
-				religion = sufism
+				owner = { change_religion = sufism }
+				change_religion = sufism
 			}
 			55 = {
-				owner = { religion = khariji }
-				religion = khariji
+				owner = { change_religion = khariji }
+				change_religion = khariji
 			}
 			5 = {
-				owner = { religion = shiite }
-				religion = shiite
+				owner = { change_religion = shiite }
+				change_religion = shiite
 			}
 			5 = {
-				owner = { religion = sunni }
-				religion = sunni
+				owner = { change_religion = sunni }
+				change_religion = sunni
 			}
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -1837,11 +1805,11 @@ province_event = {
 #Djata Kurufa appears!
 province_event = {
 
-	id = 31549
+	id = darkcont.41
 	major = yes
 
-	title = "EVTNAME31544"
-	desc = "EVTDESC31549"
+	title = "darkcont.41.name"
+	desc = "darkcont.41.desc"
 
 	trigger = {
 		owner = {
@@ -1865,41 +1833,41 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31549"
+		name = "darkcont.41.a"
 		ai_chance = { factor = 80 }
-		owner = { technology_group = mid_east }
+		owner = { change_technology_group = mid_east }
 		random_list = {
 			70 = {
-				owner = { religion = sufism }
-				religion = sufism
+				owner = { change_religion = sufism }
+				change_religion = sufism
 			}
 			20 = {
-				owner = { religion = sunni }
-				religion = sunni
+				owner = { change_religion = sunni }
+				change_religion = sunni
 			}
 			5 = {
-				owner = { religion = khariji }
-				religion = khariji
+				owner = { change_religion = khariji }
+				change_religion = khariji
 			}
 			5 = {
-				owner = { religion = shiite }
-				religion = shiite
+				owner = { change_religion = shiite }
+				change_religion = shiite
 			}
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -1908,7 +1876,7 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTB31549"
+		name = "darkcont.41.b"
 		ai_chance = {
 			factor = 20
 
@@ -1922,24 +1890,24 @@ province_event = {
 			}
 		}
 		owner = {
-			technology_group = mid_east
-			religion = vodun
+			change_technology_group = mid_east
+			change_religion = vodun
 		}
-		religion = vodun
+		change_religion = vodun
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
-		}
-		random_empty_neighbor_province = {
-			create_colony = 1
-			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
+		}
+		random_empty_neighbor_province = {
+			create_colony = 1000
+			add_core = THIS
+			add_base_tax = 1
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -1954,11 +1922,11 @@ province_event = {
 #Magyaristan appears!
 province_event = {
 
-	id = 31550
+	id = darkcont.42
 	major = yes
 
-	title = "EVTNAME31544"
-	desc = "EVTDESC31550"
+	title = "darkcont.42.name"
+	desc = "darkcont.42.desc"
 
 	trigger = {
 		owner = { 
@@ -1982,40 +1950,40 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31544"
-		owner = { technology_group = mid_east }
+		name = "darkcont.42.a"
+		owner = { change_technology_group = mid_east }
 		random_list = {
 			35 = {
-				owner = { religion = sufism }
-				religion = sufism
+				owner = { change_religion = sufism }
+				change_religion = sufism
 			}
 			40 = {
-				owner = { religion = khariji }
-				religion = khariji
+				owner = { change_religion = khariji }
+				change_religion = khariji
 			}
 			20 = {
-				owner = { religion = shiite }
-				religion = shiite
+				owner = { change_religion = shiite }
+				change_religion = shiite
 			}
 			5 = {
-				owner = { religion = sunni }
-				religion = sunni
+				owner = { change_religion = sunni }
+				change_religion = sunni
 			}
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -2027,11 +1995,11 @@ province_event = {
 #Jochid appears!
 province_event = {
 
-	id = 31551
+	id = darkcont.43
 	major = yes
 
-	title = "EVTNAME31544"
-	desc = "EVTDESC31551"
+	title = "darkcont.43.name"
+	desc = "darkcont.43.desc"
 
 	trigger = {
 		owner = { 
@@ -2055,37 +2023,37 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31551"
+		name = "darkcont.43.a"
 		ai_chance = { factor = 85 }
-		owner = { technology_group = mid_east }
+		owner = { change_technology_group = mid_east }
 		random_list = {
 			75 = {
-				owner = { religion = sunni }
-				religion = sunni
+				owner = { change_religion = sunni }
+				change_religion = sunni
 			}
 			20 = {
-				owner = { religion = sufism }
-				religion = sufism
+				owner = { change_religion = sufism }
+				change_religion = sufism
 			}
 			5 = {
-				owner = { religion = shiite }
-				religion = shiite
+				owner = { change_religion = shiite }
+				change_religion = shiite
 			}
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -2094,7 +2062,7 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTB31551"
+		name = "darkcont.43.b"
 		ai_chance = {
 			factor = 15
 
@@ -2104,24 +2072,24 @@ province_event = {
 			}
 		}
 		owner = {
-			technology_group = mid_east
-			religion = buddhism
+			change_technology_group = mid_east
+			change_religion = buddhism
 		}
-		religion = buddhism
+		change_religion = buddhism
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
-		}
-		random_empty_neighbor_province = {
-			create_colony = 1
-			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
+		}
+		random_empty_neighbor_province = {
+			create_colony = 1000
+			add_core = THIS
+			add_base_tax = 1
 		}
 		owner = {
 			remove_country_modifier = black_death_colonist
@@ -2135,10 +2103,10 @@ province_event = {
 #Scotland expands again, honestly this AI...
 province_event = {
 
-	id = 31553
+	id = darkcont.44
 
-	title = "EVTNAME31541"
-	desc = "EVTDESC31541"
+	title = "darkcont.44.name"
+	desc = "darkcont.44.desc"
 
 	trigger = {
 		owner = {
@@ -2152,10 +2120,10 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31541"
+		name = "darkcont.44.a"
 		random_empty_neighbor_province = {
-			create_colony = 1
-			multiply_citysize = 10
+			create_colony = 1000
+			add_base_tax = 1
 		}
 		owner = { clr_country_flag = bd_reclaim_highlands }
 	}
@@ -2164,10 +2132,10 @@ province_event = {
 #More religious ultimatums, Jewish option
 country_event = {
 
-	id = 31554
+	id = darkcont.45
 
-	title = "EVTNAME31554"
-	desc = "EVTDESC31554"
+	title = "darkcont.45.name"
+	desc = "darkcont.45.desc"
 
 	trigger = {
 		has_global_flag = black_death_scn_g
@@ -2189,32 +2157,32 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31554"
+		name = "darkcont.45.a"
 		ai_chance = { factor = 90 }
-		random_owned = {
-			limit = { NOT = { religion = judaism } }
-			religion = judaism
+		random_owned_province = {
+			limit = { NOT = { religion = jewish } }
+			change_religion = jewish
 		}
 	}
 	option = {
-		name = "EVTOPTB31554"
+		name = "darkcont.45.b"
 		ai_chance = { factor = 10 }
-		random_owned = {
-			limit = { NOT = { religion = judaism } }
-			religion = judaism
+		random_owned_province = {
+			limit = { NOT = { religion = jewish } }
+			change_religion = jewish
 		}
-		religion = judaism
-		stability = -1
+		change_religion = jewish
+		add_stability = -1
 	}
 }
 
 #Byzantine Refugees
 province_event = {
 
-	id = 31555
+	id = darkcont.46
 
-	title = "EVTNAME31555"
-	desc = "EVTDESC31555"
+	title = "darkcont.46.name"
+	desc = "darkcont.46.desc"
 
 	trigger = {
 		province_id = 164	# Naxos
@@ -2231,14 +2199,14 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31555"
+		name = "darkcont.46.a"
 		random_empty_neighbor_province = {
-			create_colony = 1
+			create_colony = 1000
 			add_core = THIS
-			multiply_citysize = 10
+			add_base_tax = 1
 		}
 		owner = {
-			government_tech = 0.75
+			add_adm_power = 100
 			add_country_modifier = {
 				name = "byzantine_influx"
 				duration = 1095
@@ -2250,10 +2218,10 @@ province_event = {
 #Aotearoa discovers Asia!
 country_event = {
 
-	id = 31556
+	id = darkcont.47
 
-	title = "EVTNAME31556"
-	desc = "EVTDESC31556"
+	title = "darkcont.47.name"
+	desc = "darkcont.47.desc"
 
 	trigger = {
 		tag = AOT
@@ -2280,52 +2248,14 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA31556"
-		technology_group = new_world_2
+		name = "darkcont.47.a"
+		change_technology_group = new_world_2
 		725 = { discover = yes }	# Manchu
 		735 = { discover = yes }	# Korea
 		1020 = { discover = yes }	# Japan
 		1821 = { discover = yes }	# Ming
-		government_tech = 0.75
-		trade_tech = 0.75
-		naval_tech = 0.75
-	}
-}
-
-# North African Muslims locked out from rushing colonists
-country_event = {
-
-	id = 31557
-
-	title = "EVTNAME31557"
-	desc = "EVTDESC31557"
-
-	trigger = {
-		has_global_flag = black_death_scn_g
-		technology_group = muslim
-		OR = {
-			tag = MOR
-			tag = ALG
-			tag = TUN
-			tag = TRP
-			tag = MAM
-		}
-		NOT = { year = 1400 }
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		add_country_modifier = {
-			name = "pop_quarantine"
-			duration = 2200
-		}
-	}
-
-	option = {
-		name = "EVTOPTA31557"
-		colonists = -1
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
 	}
 }
