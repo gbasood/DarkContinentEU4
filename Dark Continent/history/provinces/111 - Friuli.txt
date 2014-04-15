@@ -1,7 +1,5 @@
 #111 - Friuli
 
-owner = XXX
-controller = XXX
 culture = lombard 
 religion = catholic 
 hre = yes 

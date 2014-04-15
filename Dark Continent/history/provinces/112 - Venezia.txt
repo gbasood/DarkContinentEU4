@@ -1,16 +1,13 @@
 #112 - Venezia
 
-owner = XXX
-controller = XXX
 culture = lombard 
 religion = catholic 
 hre = no 
-base_tax = 10        
+base_tax = 10    
 trade_goods = cloth
-manpower = 5        
+manpower = 5    
 fort1 = yes 
-capital = "Venezia" 
-citysize = 0	# Estimated 
+capital = "Venezia"
 marketplace = yes 
 shipyard = yes
 discovered_by = western

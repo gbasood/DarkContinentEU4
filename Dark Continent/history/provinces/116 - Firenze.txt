@@ -1,7 +1,5 @@
 #116 - Firenze
 
-owner = XXX
-controller = XXX
 culture = lombard 
 religion = catholic 
 hre = yes 
@@ -9,8 +7,7 @@ base_tax = 12
 trade_goods = wine
 manpower = 6        
 fort1 = yes 
-capital = "Firenze" 
-citysize = 0 # Estimated 
+capital = "Firenze"
 university = yes # Founded 1321
 discovered_by = western
 discovered_by = eastern

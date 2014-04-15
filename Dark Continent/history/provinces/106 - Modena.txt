@@ -1,16 +1,13 @@
 #106 - Modena
 
-owner = XXX
-controller = XXX
 culture = lombard 
 religion = catholic 
 hre = yes 
-base_tax = 5        
+base_tax = 5    
 trade_goods = wine
-manpower = 2        
+manpower = 2    
 fort1 = yes 
-capital = "Modena" 
-citysize = 0	# Estimated 
+capital = "Modena"
 temple = yes		# 12th century
 university = yes	# Founded 1175
 discovered_by = western

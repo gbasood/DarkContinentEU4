@@ -1,7 +1,5 @@
 #110 - Trent
 
-owner = XXX
-controller = XXX
 culture = austrian
 religion = catholic
 hre = yes
@@ -10,7 +8,6 @@ trade_goods = iron
 manpower = 1
 fort1 = yes
 capital = "Trent"
-citysize = 0
 marketplace = yes
 discovered_by = western
 discovered_by = eastern

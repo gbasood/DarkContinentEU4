@@ -1,7 +1,4 @@
 #Fyn-Langeland
-
-owner = XXX
-controller = XXX
 culture = danish
 religion = catholic
 hre = no
@@ -10,7 +7,6 @@ trade_goods = fish
 manpower = 2
 capital = "Odense"
 fort1 = yes
-citysize = 0
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

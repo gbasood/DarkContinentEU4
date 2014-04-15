@@ -12,5 +12,4 @@ manpower = 1
 citysize = 1290
 add_core = QAS
 discovered_by = eastern
-discovered_by = GOL
 discovered_by = nomad_group

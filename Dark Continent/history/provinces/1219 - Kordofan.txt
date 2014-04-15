@@ -10,7 +10,6 @@ native_size = 50
 native_ferocity = 4
 native_hostileness = 9 
 trade_goods = slaves
-citysize = 5000
 hre = no
 base_tax = 1
 manpower = 1

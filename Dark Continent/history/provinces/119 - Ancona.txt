@@ -1,16 +1,14 @@
 #119 - Ancona
 
-owner = XXX
-controller = XXX
+
 culture = umbrian 
 religion = catholic 
 hre = no 
-base_tax = 5
+base_tax = 5        
 trade_goods = wool
-manpower = 4
-fort1 = yes
-capital = "Urbino"
-citysize = 0
+manpower = 4        
+fort1 = yes 
+capital = "Urbino" 
 temple = yes
 discovered_by = western
 discovered_by = eastern

@@ -1,7 +1,5 @@
 #124 - Messina
 
-owner = XXX
-controller = XXX
 culture = sicilian 
 religion = catholic 
 hre = no 
@@ -10,7 +8,6 @@ trade_goods = fish
 manpower = 5
 fort1 = yes 
 capital = "Messina"
-citysize = 0
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

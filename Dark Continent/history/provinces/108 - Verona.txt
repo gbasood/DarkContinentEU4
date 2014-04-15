@@ -1,7 +1,5 @@
 #108 - Verona
 
-owner = XXX
-controller = XXX
 culture = lombard 
 religion = catholic 
 hre = yes 

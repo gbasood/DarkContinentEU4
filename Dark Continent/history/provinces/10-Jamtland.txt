@@ -1,12 +1,13 @@
-﻿owner = XXX
-controller = XXX
-culture = norwegian
+﻿#Jämtland+Härjedalen
+
+culture = norwegian # They were actually Jämts - the unique blend of Swedish, Norwegian and local tendencies
 religion = catholic
 hre = no
 base_tax = 1
 trade_goods = fur
 manpower = 1
-capital = "Umeå"
-citysize = 0
+capital = "Frösön"
+add_core = NOR
+add_core = SWE
 discovered_by = eastern
 discovered_by = western

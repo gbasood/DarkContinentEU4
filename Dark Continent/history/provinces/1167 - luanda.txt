@@ -7,7 +7,6 @@ culture = kongolese
 religion = shamanism
 capital = "Luanda"
 trade_goods = slaves
-citysize = 5000
 hre = no
 base_tax = 4
 manpower = 2

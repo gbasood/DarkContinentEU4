@@ -1,7 +1,6 @@
 #139 - Hum
 
-owner = XXX
-controller = XXX
+
 culture = serbian
 religion = orthodox
 capital = "Mostar"	# Unofficial capital of Herzegovina
@@ -9,7 +8,6 @@ trade_goods = wool
 hre = no
 base_tax = 2
 manpower = 2
-citysize = 0
 fort1 = yes
 add_core = BOS
 discovered_by = western

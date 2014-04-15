@@ -1,7 +1,5 @@
 #104 - Lombardia
 
-owner = XXX
-controller = XXX
 culture = lombard
 religion = catholic
 hre = yes
@@ -10,7 +8,6 @@ trade_goods = cloth
 manpower = 7
 fort1 = yes
 capital = "Milano"
-citysize = 0	# Estimated
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

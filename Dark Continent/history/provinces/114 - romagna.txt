@@ -1,7 +1,5 @@
 #114 - Romagna
 
-owner = XXX
-controller = XXX
 culture = umbrian 
 religion = catholic 
 hre = no 
@@ -10,7 +8,6 @@ trade_goods = salt
 manpower = 4        
 fort1 = yes 
 capital = "Bologna" 
-citysize = 0	# Estimated 
 temple = yes		# Completed 1135
 university = yes	# Founded 1088
 discovered_by = western

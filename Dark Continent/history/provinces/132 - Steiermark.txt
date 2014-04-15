@@ -1,7 +1,5 @@
 #132 - Steiermark
 
-owner = XXX
-controller = XXX
 culture = austrian
 religion = catholic
 base_tax = 6
@@ -9,7 +7,6 @@ trade_goods = grain
 manpower = 3
 fort1 = yes
 capital = "Judenburg" 
-citysize = 0
 hre = no
 discovered_by = western
 discovered_by = eastern

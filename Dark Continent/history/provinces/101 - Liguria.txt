@@ -1,7 +1,5 @@
 #101 - Liguria
 
-owner = XXX
-controller = XXX
 culture = lombard
 religion = catholic
 hre = yes
@@ -10,7 +8,6 @@ trade_goods = naval_supplies
 manpower = 5
 fort1 = yes
 capital = "Genova"
-citysize = 0 # Estimated
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

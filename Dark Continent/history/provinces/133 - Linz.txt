@@ -1,7 +1,5 @@
 #133 - Linz
 
-owner = XXX
-controller = XXX
 culture = austrian
 religion = catholic
 base_tax = 6
@@ -9,7 +7,6 @@ trade_goods = grain
 manpower = 4
 fort1 = yes
 capital = "Linz" 
-citysize = 0
 hre = yes
 discovered_by = western
 discovered_by = eastern

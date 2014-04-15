@@ -1,7 +1,5 @@
 #136 - Dalmatia
 
-owner = XXX
-controller = XXX
 culture = croatian
 religion = catholic
 capital = "Zadar"
@@ -9,7 +7,6 @@ trade_goods = wool
 hre = no
 base_tax = 5
 manpower = 3
-citysize = 0
 fort1 = yes
 add_core = HUN
 add_core = CRO

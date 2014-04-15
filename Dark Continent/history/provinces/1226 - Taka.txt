@@ -8,11 +8,20 @@ religion = animism
 capital = "Qoz Rajab"
 manpower = 1
 trade_goods = slaves
-citysize = 3000
 hre = no
 base_tax = 1
 native_size = 30
 native_ferocity = 4
 native_hostileness = 9
-discovered_by = NUB
 discovered_by = ETH
+discovered_by = ADA
+discovered_by = NUB
+discovered_by = ZAN
+discovered_by = AJU
+discovered_by = MBA
+discovered_by = MDI
+discovered_by = MLI
+discovered_by = SFA
+discovered_by = ZIM
+
+1550.1.1 = { discovered_by = TUR }

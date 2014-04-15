@@ -1,7 +1,5 @@
 #Sönderjylland-Slesvig, incl. Ribe, Slesvig and Flensborg
 
-owner = XXX
-controller = XXX
 culture = danish
 religion = catholic
 hre = no
@@ -10,15 +8,7 @@ trade_goods = grain
 manpower = 3
 capital = "Ribe"
 fort1 = yes
-citysize = 0 # Estimated
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-1000.1.1   = { add_core = DAN }
-
-#Black Death
-1399.10.11 = {	owner = XXX
-		controller = XXX
-		citysize = 0 }

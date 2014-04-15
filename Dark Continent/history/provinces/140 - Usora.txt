@@ -1,7 +1,5 @@
 #140 - Core of Bosnian kingdom, Soli+Usora+Vrhbosna
 
-owner = XXX
-controller = XXX
 culture = serbian
 religion = orthodox
 capital = "Visoki"
@@ -9,7 +7,6 @@ trade_goods = wool
 hre = no
 base_tax = 3
 manpower = 2
-citysize = 0
 fort1 = yes
 add_core = BOS
 discovered_by = western
