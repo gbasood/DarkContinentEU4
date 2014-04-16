@@ -7,7 +7,6 @@ culture = guajiro
 religion = animism
 capital = "Cayenne"
 trade_goods = sugar
-city_size = 1200
 hre = no
 base_tax = 2
 manpower = 1

@@ -12,6 +12,7 @@ manpower = 1
 citysize = 1000
 add_core = PRM
 add_core = QAS
+discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
 

@@ -10,6 +10,7 @@ hre = no
 base_tax = 6
 trade_goods = cloth
 manpower = 2
+add_core = BUR 
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

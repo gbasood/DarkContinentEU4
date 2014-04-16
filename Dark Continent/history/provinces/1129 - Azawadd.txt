@@ -20,3 +20,16 @@ discovered_by = HAU
 discovered_by = KBO
 discovered_by = OYO
 discovered_by = BEN
+
+1517.1.1 = {	discovered_by = SON
+		owner = SON
+		controller = SON
+		add_core = SON
+		citysize = 3000
+		manpower = 1
+		trade_goods = salt
+	   } #Askiya Muhammad of Songhai seizes control 
+1586.1.1 = { revolt = { type = revolutionary_rebels size = 1 } controller = REB } #Civil war between Al-Sadduk and Ishak
+1591.1.1 = { revolt = {} discovered_by = MOR owner = MOR controller = MOR add_core = MOR } #occupied by Moroccans during march into Niger valley
+1618.1.1 = { discovered_by = MAL owner = MAL controller = MAL add_core = MAL remove_core = MOR } #Moroccans no longer appoint governors, local Moroccans, the Arma, rule on their own (recycle MAL tag)
+1642.1.1 = { remove_core = SON } #Collapse of last vestiges of unity among Songhai

@@ -13,7 +13,6 @@ manpower = 5
 add_core = FRA
 fort1 = yes
 temple = yes
-#university = yes # L'Université de Poitiers
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

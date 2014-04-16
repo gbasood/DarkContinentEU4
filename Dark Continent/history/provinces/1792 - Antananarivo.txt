@@ -8,7 +8,6 @@ religion = animism
 capital = "Antananarivo"
 native_size = 90
 trade_goods = grain
-citysize = 5000
 hre = no
 base_tax = 1
 manpower = 1

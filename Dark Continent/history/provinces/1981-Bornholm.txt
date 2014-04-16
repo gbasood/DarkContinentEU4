@@ -10,6 +10,7 @@ base_tax = 1
 trade_goods = fish
 manpower = 1
 capital = "Ronne"
+is_city = yes
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

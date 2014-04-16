@@ -17,3 +17,11 @@ discovered_by = HAU
 discovered_by = KBO
 discovered_by = BEN
 discovered_by = OYO
+
+1804.1.1 = { discovered_by = SOK }
+1807.1.1 = {	owner = SOK
+		controller = SOK
+		add_core = SOK
+		citysize = 12000
+		trade_goods = wool
+	   } # The Fulani Empire

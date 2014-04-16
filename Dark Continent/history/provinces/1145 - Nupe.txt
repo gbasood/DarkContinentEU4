@@ -19,8 +19,6 @@ discovered_by = SON
 discovered_by = HAU
 discovered_by = KBO
 discovered_by = OYO
-discovered_by = HAU
-discovered_by = SOK
 discovered_by = BEN
 
 1484.1.1 = { revolt_risk = 6 } #Campaigns by the Katsina Hausa against their Nupe enemies

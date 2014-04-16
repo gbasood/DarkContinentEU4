@@ -19,3 +19,13 @@ marketplace = yes
 temple = yes
 university = yes		# University of Coimbra founded in 1290
 discovered_by = eastern
+
+1450.1.1   = { citysize = 20000 }
+1520.1.1   = { constable = yes }
+1580.8.25  = { controller = SPA }
+1580.8.26  = { controller = POR }
+1600.1.1   = { citysize = 50000 }
+1640.1.1   = { revolt_risk = 8 } # Revolt headed by John of Bragança
+1640.12.1  = { revolt_risk = 0 }
+1807.12.1  = { controller = RFR } # Occupied by France
+1808.8.30  = { controller = POR }

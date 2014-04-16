@@ -18,3 +18,9 @@ discovered_by = HAU
 discovered_by = KBO
 discovered_by = OYO
 discovered_by = BEN
+
+1462.1.1 = { discovered_by = POR } 
+1605.1.1 = { revolt_risk = 6 culture = mali } #Collapse of Mali sparks major migrations of Mande into region
+1610.1.1 = { revolt_risk = 0 }
+1755.1.1 = { revolt_risk = 6 } #Ibrahima Sory leads major raids by Fulbe into region 
+1762.1.1 = { revolt_risk = 0 } #Defeat of Ibrahim Sory ends Fulbe raids

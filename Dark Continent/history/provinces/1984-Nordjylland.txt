@@ -10,6 +10,7 @@ base_tax = 2
 trade_goods = grain
 manpower = 2
 capital = "Aalborg"
+is_city = yes
 temple = yes
 fort1 = yes
 marketplace = yes
