@@ -1,4 +1,4 @@
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 75  25  75 }
 
@@ -22,7 +22,6 @@ historical_units = {
 	western_medieval_knights
 	western_men_at_arms
 	dutch_maurician
-	swedish_galoop
 	swedish_gustavian
 	swedish_caroline
 	swedish_arme_blanche

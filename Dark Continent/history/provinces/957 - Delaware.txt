@@ -7,7 +7,6 @@ culture = delaware
 religion = totemism
 capital = "Delaware"
 trade_goods = tobacco
-citysize = 8000
 hre = no
 base_tax = 5
 manpower = 3

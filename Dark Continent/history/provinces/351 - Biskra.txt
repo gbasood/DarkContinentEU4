@@ -15,7 +15,6 @@ add_core = ALG
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-discovered_by = TUR
 
 1450.1.1 = { citysize = 3900 }
 1500.1.1 = { citysize = 4376 }

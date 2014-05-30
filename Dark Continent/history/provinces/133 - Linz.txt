@@ -12,3 +12,17 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+1450.1.1 = { citysize = 5000 }
+1500.1.1 = { citysize = 6000 }
+1550.1.1 = { citysize = 8000 }
+1550.1.1 = { courthouse = yes }
+1560.1.1 = { marketplace = yes }
+1650.1.1 = { manpower = 2 }
+1650.1.1 = { citysize = 10000 }
+1672.1.1 = { workshop = yes }
+1700.1.1 = { citysize = 13000 }
+1700.1.1 = { manpower = 3 }
+1750.1.1 = { citysize = 15000 }
+1800.1.1 = { citysize = 16500 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

@@ -24,18 +24,18 @@ muslim = {
 	
 	sufism = {
 		color = { 0.000 0.729 0.133 }
+		allowed_conversion = {
+			sunni
+			shiite
+			khariji
+		}
+		country = {
+			technology_cost = -0.02
+		}
+		
+		heretic = { FUNDAMENTALIST POPULIST REACTIONARY REFORMIST ICONOCLAST }
+		uses_piety = yes
 	}
-	allowed_conversion = {
-		sunni
-		shiite
-		khariji
-	}
-	country = {
-		technology_cost = -0.02
-	}
-	
-	heretic = { FUNDAMENTALIST POPULIST REACTIONARY REFORMIST ICONOCLAST }
-	uses_piety = yes
 }
 
 jewish_group = {

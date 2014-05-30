@@ -20,3 +20,32 @@ discovered_by = ottoman
 		duration = -1
 	}
 }
+1450.1.1  = { citysize = 9500 }
+1460.1.1  = { marketplace = yes }
+1500.1.1  = { citysize = 10230 }
+1550.1.1  = { citysize = 12990 shipyard = yes } # Ragusa reached its peak
+1600.1.1  = { citysize = 13790 fort2 = yes }
+1610.1.1  = { fine_arts_academy = yes } # Became the center of the "Dalmatian renaissance"
+#1630.1.1  = { customs_house = yes }
+1650.1.1  = { citysize = 14005 fort3 = yes }
+1667.1.1  = { citysize = 9102 } # Earthquake, the city gradually declined, -5000
+1690.1.1  = { tax_assessor = yes }
+1700.1.1  = { citysize = 8763 courthouse = yes }
+1750.1.1  = { citysize = 9012 }
+1800.1.1  = { citysize = 9400 }
+1806.5.26 = { controller = RFR } # Occupied by French troops
+1806.6.17 = { controller = RAG } # The French are defeated
+1806.7.12 = { controller = RFR }
+1807.7.9  = { owner = RFR add_core = RFR } # Treaty of Tilsit
+
+1808.1.1 = { owner = ITA
+		controller = ITA
+ 	     } #  Marshal Marmont abolishes the Republic of Ragusa and merges the territory into the Napoleonic Kingdom of Italy
+1810.1.1 = { owner = RFR
+		controller = RFR
+ 	     } # Ragusa with all Dalmatia went to the newly created French Illyrian Provinces
+1813.9.20 = { controller = HAB } # Occupied by Austrian forces
+1814.4.6  = {	owner = HAB
+		add_core = HAB
+		remove_core = RFR
+	    } # Napoleon abdicates

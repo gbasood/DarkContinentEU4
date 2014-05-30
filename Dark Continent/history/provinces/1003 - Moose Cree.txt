@@ -1,8 +1,8 @@
 #1003 - Moose Cree
 
-owner = OJI
-controller = OJI
-add_core = OJI
+owner = WCR
+controller = WCR
+add_core = WCR
 culture = cree
 religion = totemism
 capital = "Moose Cree"

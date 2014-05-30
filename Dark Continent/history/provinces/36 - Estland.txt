@@ -14,8 +14,6 @@ citysize = 7000
 fort1 = yes
 discovered_by = western
 discovered_by = eastern
-discovered_by = SKA
-discovered_by = JOC
 
 1450.1.1   = { citysize = 8000 }
 1520.1.1   = { marketplace = yes }

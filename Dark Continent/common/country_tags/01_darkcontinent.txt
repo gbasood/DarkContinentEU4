@@ -1,5 +1,6 @@
 # Dark Continent countries.
 ALM	= "countries/Alemand.txt"
+AOT = "countries/Aotearoa.txt"
 AMZ	= "countries/Amazonia.txt"
 ARW	= "countries/Arawak.txt"
 AYM	= "countries/Aymara.txt"

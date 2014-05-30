@@ -1,7 +1,7 @@
 government = tribal_democracy
 primary_culture = wanka
 religion = inca_religion
-technology_group = new_world
+technology_group = south_american
 capital = 811	# Tarma
 
 1385.1.1 = {

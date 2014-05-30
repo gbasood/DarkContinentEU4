@@ -14,8 +14,6 @@ citysize = 1000 # Estimated
 fort1 = yes
 discovered_by = western
 discovered_by = eastern
-discovered_by = SKA
-discovered_by = JOC
 
 1450.1.1   = { citysize = 1100 }
 1500.1.1   = { citysize = 1250 }

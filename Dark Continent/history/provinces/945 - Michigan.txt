@@ -1,16 +1,51 @@
 #945 - Michigan
 
-owner = MEO
-controller = MEO
-add_core = MEO
-culture = iroquois
-religion = shamanism
+add_core = FOX
+owner = FOX
+controller = FOX
+culture = chiwere
+religion = totemism
 capital = "Michigan"
 trade_goods = fur
-citysize = 1000
 hre = no
 base_tax = 3
 manpower = 1
+is_city = yes
 native_size = 5
 native_ferocity = 1
 native_hostileness = 4
+discovered_by = north_american
+
+1634.1.1  = { discovered_by = FRA } # Jean Nicolet
+1660.1.1  = { 	owner = POT
+		controller = POT
+		add_core = POT
+		culture = anishinabe } #Fleeing from the Beaver Wars
+1691.1.1  = {	owner = FRA
+		controller = FRA
+		remove_core = FOX
+		citysize = 400
+		culture = cosmopolitan_french
+		religion = catholic
+	    } # Construction of Fort St. Joseph
+1716.1.1  = { add_core = FRA }
+1750.1.1  = { citysize = 1055 }
+1763.2.10 = {	owner = GBR
+		controller = GBR
+		culture = english
+		religion = protestant
+		remove_core = FRA
+	    } # Treaty of Paris, ceded to the British
+1783.9.3 = {	owner = OTT
+		controller = OTT
+		add_core = OTT
+		add_core = USA
+		is_city = yes
+		culture = anishinabe
+		religion = totemism
+	    } # Treaty of Paris, GBR abandons but support natives against USA.
+1800.1.1  = { citysize = 2200 }
+1813.10.5 = {	owner = USA
+		controller = USA
+		culture = american
+		religion = protestant } #The death of Tecumseh mark the end of organized native resistance 

@@ -1,7 +1,7 @@
 government = native_council
 primary_culture = arawak
 religion = animism #teotl
-technology_group = north_american
+technology_group = south_american
 capital = 486	# Guantanamo
 
 

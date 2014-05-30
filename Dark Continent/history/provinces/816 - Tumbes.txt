@@ -11,5 +11,4 @@ base_tax = 1
 manpower = 2
 citysize = 1500
 add_core = CHM
-discovered_by = INC
-discovered_by = CHM
+discovered_by = south_american

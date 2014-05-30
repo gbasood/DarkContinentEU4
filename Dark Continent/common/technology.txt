@@ -78,7 +78,7 @@ groups = {
 		modifier = 0.8
 		start_level = 0
 		cav_to_inf_ratio = 0.4
-		slow_limit = 4
+		power = -2
 	}
 	new_world = {
 		modifier = 0.85
@@ -100,7 +100,7 @@ groups = {
 	mid_east = {
 		modifier = 0
 		start_level = 3
-		cav_to_in_ratio = 0.5
+		cav_to_inf_ratio = 0.5
 	}
 	far_east_1 = {
 		modifier = 0.2

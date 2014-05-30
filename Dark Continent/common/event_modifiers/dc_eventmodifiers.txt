@@ -12,7 +12,7 @@ black_death_colonist = {
 
 black_death_survivor = {
 	legitimacy = 0.01
-	colonist_cost = -0.05
+	global_colonial_growth = 20
 	advisor_cost = -0.35
 }
 byzantine_influx = {

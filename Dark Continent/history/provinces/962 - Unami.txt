@@ -7,7 +7,6 @@ culture = delaware
 religion = totemism
 capital = "Unami"
 trade_goods = fur
-citysize = 2000
 hre = no
 base_tax = 5
 manpower = 1

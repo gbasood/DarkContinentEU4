@@ -1,5 +1,7 @@
 ﻿#Jämtland+Härjedalen
 
+owner = XXX
+controller = XXX
 culture = norwegian # They were actually Jämts - the unique blend of Swedish, Norwegian and local tendencies
 religion = catholic
 hre = no

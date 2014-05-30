@@ -1,7 +1,7 @@
 government = tribal_federation
 primary_culture = aimara
 religion = inca_religion
-technology_group = new_world
+technology_group = south_american
 capital = 802	# Chuquiabo
 
 1390.1.1 = {

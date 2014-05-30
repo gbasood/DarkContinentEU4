@@ -1,7 +1,7 @@
 government = despotic_monarchy
 primary_culture = amazonian
 religion = inca_religion
-technology_group = new_world
+technology_group = south_american
 capital = 747	# Tucujulandia
 
 

@@ -3,16 +3,56 @@
 owner = MEO
 controller = MEO
 add_core = MEO
-culture = dakota
-religion = shamanism
+culture = anishinabe
+religion = totemism
 capital = "Sauk"
 trade_goods = fish
-citysize = 1000
 hre = no
 base_tax = 1
 manpower = 1
 native_size = 5
 native_ferocity = 2
 native_hostileness = 5
-discovered_by = MEO
-discovered_by = OJI
+discovered_by = north_american
+
+1634.1.1 = { discovered_by = FRA } # Jean Nicolet
+1660.1.1  = { 	owner = OTT
+		controller = OTT
+		add_core = OTT
+		is_city = yes	 } #Fleeing from the Beaver Wars
+1693.1.1 = {
+	owner = FRA
+	controller = FRA
+	citysize = 450
+	culture = cosmopolitan_french
+	religion = catholic
+	trade_goods = fish
+} # Founding of La Pointe 
+1700.1.1 = { citysize = 2010 }
+1712.1.1 = { revolt_risk = 5 } # Fox war
+1714.1.1 = { revolt_risk = 0 }
+1718.1.1 = { add_core = FRA citysize = 1240 } # The fur trade attracted more settlers
+1728.1.1 = { revolt_risk = 5 } # Second Fox war
+1729.1.1 = { revolt_risk = 0 }
+1750.1.1 = { citysize = 2410 }
+1763.2.10 = {
+	discovered_by = GBR
+	owner = GBR
+	controller = GBR
+	remove_core = FRA
+	culture = english
+	religion = protestant
+} # Treaty of Paris - ceded to Britain, France gave up its claim
+1783.9.3 = {	owner = OJI
+		controller = OJI
+		add_core = OJI
+		add_core = USA
+		is_city = yes
+		culture = anishinabe
+		religion = totemism
+	    } # Treaty of Paris, GBR abandons but support natives against USA.
+1800.1.1 = { citysize = 3866 }
+1813.10.5 = {	owner = USA
+		controller = USA
+		culture = american
+		religion = protestant } #The death of Tecumseh mark the end of organized native resistance 

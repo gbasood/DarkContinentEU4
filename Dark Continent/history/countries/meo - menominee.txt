@@ -1,7 +1,7 @@
 government = native_council
 primary_culture = menominee
-religion = shamanism
-technology_group = new_world
+religion = totemism
+technology_group = north_american
 capital = 911	# Menominee
 
 1389.1.1 = {
